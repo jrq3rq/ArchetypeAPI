@@ -1,0 +1,40 @@
+{
+  "name": "archetypeapi",
+  "version": "1.0.0",
+  "description": "## 1. Project Initialization",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrq3rq/ArchetypeAPI.git"
+  },
+  "author": "jrq3rq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrq3rq/ArchetypeAPI/issues"
+  },
+  "homepage": "https://github.com/jrq3rq/ArchetypeAPI#readme",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "csurf": "^1.11.0",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "express-rate-limit": "^7.1.3",
+    "express-validator": "^7.0.1",
+    "firebase-admin": "^11.11.0",
+    "firebase-functions": "^4.4.1",
+    "firebase-functions-test": "^3.1.0",
+    "helmet": "^7.0.0",
+    "joi": "^17.11.0",
+    "limiter": "^2.1.0",
+    "lodash": "^4.17.21",
+    "mocha": "^10.2.0",
+    "morgan": "^1.10.0",
+    "swagger-ui-express": "^5.0.0",
+    "winston": "^3.11.0"
+  }
+}
