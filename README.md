@@ -1,3 +1,49 @@
+```markdown
+api-project
+├── public
+│ └── swagger
+│ ├── assets
+│ │ └── logo.png
+│ └── index.html
+├── src
+│ ├── routes
+│ │ ├── users.js
+│ │ ├── posts.js
+│ │ └── comments.js
+│ ├── middlewares
+│ │ ├── rateLimit.js
+│ │ ├── validation.js
+│ │ ├── errorHandling.js
+│ │ └── authentication.js
+│ ├── controllers
+│ │ ├── userController.js
+│ │ ├── postController.js
+│ │ └── commentController.js
+│ ├── models
+│ │ ├── userModel.js
+│ │ ├── postModel.js
+│ │ └── commentModel.js
+│ ├── config
+│ │ ├── firebase.js
+│ │ ├── winston.js
+│ │ └── database.js
+│ ├── utils
+│ │ └── lodashHelpers.js
+│ ├── app.js
+│ └── server.js
+├── test
+│ ├── users.test.js
+│ ├── posts.test.js
+│ └── comments.test.js
+├── package.json
+│ └── _dependencies installed_
+├── .gitignore
+├── README.md
+├── .env
+├── firebase.json
+└── .firebaserc
+```
+
 # Blueprint Archetype API
 
 ## 1. Project Initialization
