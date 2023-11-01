@@ -1,7 +1,9 @@
 ```markdown
 api-project
 ├── public
-│ └── swagger
+│ ├── docs
+│ │ └── swagger.yaml (or api-spec.yaml)
+│ └── swagger-ui
 │ ├── assets
 │ │ └── logo.png
 │ └── index.html
