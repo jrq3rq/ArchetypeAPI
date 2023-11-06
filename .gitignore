@@ -22,8 +22,3 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Ignore everything inside data folders
-data/*
-
-# But allow the data folder itself
-!data/
