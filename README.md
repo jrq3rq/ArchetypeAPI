@@ -4,7 +4,7 @@
 api-project
 ├── public
 │ ├── docs
-│ │ └── swagger.yaml (or api-spec.yaml)
+│ │ └── swagger.yaml
 │ └── swagger-ui
 │ ├── assets
 │ │ └── logo.png
@@ -13,8 +13,9 @@ api-project
 │ ├── routes
 │ │ ├── users.js
 │ │ ├── posts.js
-│ │ └── comments.js
-│ ├── middlewares
+│ │ ├── comments.js
+│ │ └── archetypes.js
+│ ├── middleware
 │ │ ├── rateLimit.js
 │ │ ├── validation.js
 │ │ ├── errorHandling.js
@@ -22,25 +23,33 @@ api-project
 │ ├── controllers
 │ │ ├── userController.js
 │ │ ├── postController.js
-│ │ └── commentController.js
+│ │ ├── commentController.js
+│ │ └── archetypeController.js
+│ ├── services
+│ │ └── thirdPartyService.js
+│ ├── data
+│ │ └── archetypes.json
 │ ├── models
+│ │ ├── archetypeModel.js
 │ │ ├── userModel.js
 │ │ ├── postModel.js
 │ │ └── commentModel.js
+│ ├── lib
+│ │ └── lodashHelpers.js
 │ ├── config
 │ │ ├── firebase.js
 │ │ ├── winston.js
 │ │ └── database.js
-│ ├── utils
-│ │ └── lodashHelpers.js
 │ ├── app.js
 │ └── server.js
-├── test
+├── tests
+│ ├── archetypes.test.js
 │ ├── users.test.js
 │ ├── posts.test.js
 │ └── comments.test.js
+├── logs
+│ └── appLogs.log
 ├── package.json
-│ └── _dependencies installed_
 ├── .gitignore
 ├── README.md
 ├── .env

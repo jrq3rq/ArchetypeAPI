@@ -1,47 +1,53 @@
 openapi: 3.0.0
 info:
-  title: Sample API
-  description: This is a sample API documentation.
+  title: Archetype API
   version: 1.0.0
-servers:
-  - url: http://api.example.com/v1
-    description: Production server
 
 paths:
-  /users:
+  /archetypes:
     get:
-      summary: Get a list of users
+      summary: Get all archetypes
       responses:
-        "200":
-          description: A JSON array of user objects
+        200:
+          description: Success
           content:
             application/json:
               schema:
                 type: array
                 items:
-                  $ref: "#/components/schemas/User"
-    post:
-      summary: Create a new user
-      requestBody:
-        required: true
-        content:
-          application/json:
-            schema:
-              $ref: "#/components/schemas/User"
+                  $ref: "#/components/schemas/Archetype"
+
+  /archetypes/{id}:
+    get:
+      summary: Get archetype by ID
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
       responses:
-        "201":
-          description: User created
+        200:
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Archetype"
+        404:
+          $ref: "#/components/responses/NotFound"
 
 components:
   schemas:
-    User:
+    Archetype:
       type: object
       properties:
-        id:
-          type: integer
-          readOnly: true
-        username:
+        name:
           type: string
-        email:
-          type: string
-          format: email
+        traits:
+          type: array
+          items:
+            type: string
+
+  responses:
+    NotFound:
+      description: Archetype not found
