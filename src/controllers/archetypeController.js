@@ -1,10 +1,9 @@
-// Load archetype model
 const ArchetypeModel = require("../models/archetypeModel");
 
 // Get all archetypes
 exports.getAll = (req, res) => {
   try {
-    const archetypes = Archetype.findAll();
+    const archetypes = ArchetypeModel.findAll(); // Changed from Archetype to ArchetypeModel
     res.status(200).json(archetypes);
   } catch (error) {
     res.status(500).json({
