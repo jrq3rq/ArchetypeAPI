@@ -11,9 +11,6 @@ api-project
 │ └── index.html
 ├── src
 │ ├── routes
-│ │ ├── users.js
-│ │ ├── posts.js
-│ │ ├── comments.js
 │ │ └── archetypes.js
 │ ├── middleware
 │ │ ├── rateLimit.js
@@ -21,19 +18,13 @@ api-project
 │ │ ├── errorHandling.js
 │ │ └── authentication.js
 │ ├── controllers
-│ │ ├── userController.js
-│ │ ├── postController.js
-│ │ ├── commentController.js
 │ │ └── archetypeController.js
 │ ├── services
 │ │ └── thirdPartyService.js
 │ ├── data
 │ │ └── archetypes.json
 │ ├── models
-│ │ ├── archetypeModel.js
-│ │ ├── userModel.js
-│ │ ├── postModel.js
-│ │ └── commentModel.js
+│ │ └── archetypeModel.js
 │ ├── lib
 │ │ └── lodashHelpers.js
 │ ├── config

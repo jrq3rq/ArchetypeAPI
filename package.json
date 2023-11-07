@@ -2,8 +2,9 @@
   "name": "archetypeapi",
   "version": "1.0.0",
   "description": "## 1. Project Initialization",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +22,7 @@
     "compression": "^1.7.4",
     "cors": "^2.8.5",
     "csurf": "^1.11.0",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "express-async-handler": "^1.2.0",
     "express-rate-limit": "^7.1.3",

@@ -2,40 +2,65 @@ openapi: 3.0.0
 info:
   title: Archetype API
   version: 1.0.0
-
+  description: API for accessing and managing archetypal data
+servers:
+  - url: "https://dev.example.com/v1"
+    description: Development server
+  - url: "https://api.example.com/v1"
+    description: Production server
 paths:
   /archetypes:
     get:
       summary: Get all archetypes
+      tags:
+        - Archetypes
+      parameters:
+        - in: query
+          name: name
+          schema:
+            type: string
+          required: false
+          description: Filter by archetype name
       responses:
-        200:
-          description: Success
+        "200":
+          description: A list of archetypes
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: "#/components/schemas/Archetype"
-
-  /archetypes/{id}:
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "500":
+          $ref: "#/components/responses/ServerError"
+  "/archetypes/{id}":
     get:
-      summary: Get archetype by ID
+      summary: Get a single archetype by ID
+      tags:
+        - Archetypes
       parameters:
         - in: path
           name: id
           required: true
           schema:
             type: string
+          description: Unique identifier of the archetype
       responses:
-        200:
-          description: Success
+        "200":
+          description: Detailed information about an archetype
           content:
             application/json:
               schema:
                 $ref: "#/components/schemas/Archetype"
-        404:
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
           $ref: "#/components/responses/NotFound"
-
+        "500":
+          $ref: "#/components/responses/ServerError"
 components:
   schemas:
     Archetype:
@@ -47,7 +72,50 @@ components:
           type: array
           items:
             type: string
-
+        motivations:
+          type: array
+          items:
+            type: string
+    Error:
+      type: object
+      properties:
+        code:
+          type: integer
+          format: int32
+        message:
+          type: string
   responses:
+    BadRequest:
+      description: Invalid request parameters
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/Error"
+    Unauthorized:
+      description: Authentication required
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/Error"
     NotFound:
       description: Archetype not found
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/Error"
+    ServerError:
+      description: Internal Server Error
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/Error"
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: X-API-KEY
+security:
+  - ApiKeyAuth: []
+tags:
+  - name: Archetypes
+    description: Operations related to archetypes
