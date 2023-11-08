@@ -28,7 +28,7 @@ api-project
 │ ├── lib
 │ │ └── lodashHelpers.js
 │ ├── config
-│ │ ├── firebase.js
+│ │ ├── firebaseConfig.js
 │ │ ├── winston.js
 │ │ └── database.js
 │ ├── app.js
