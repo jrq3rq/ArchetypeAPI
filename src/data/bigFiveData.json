@@ -1,0 +1,634 @@
+{
+  "traits": [
+    {
+      "trait": "Openness",
+      "description": "A measure of one's appreciation for art, emotion, adventure, unusual ideas, imagination, curiosity, and variety of experience.",
+      "questions": [
+        {
+          "text": "I have a rich vocabulary.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I have excellent ideas.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am quick to understand things.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I use difficult words.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I spend time reflecting on things.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am full of ideas.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am not interested in abstract ideas.",
+          "isReverseScored": true
+        },
+        {
+          "text": "I do not have a good imagination.",
+          "isReverseScored": true
+        },
+        {
+          "text": "I am not interested in theoretical discussions.",
+          "isReverseScored": true
+        },
+        {
+          "text": "I am not interested in the arts.",
+          "isReverseScored": true
+        },
+        {
+          "text": "I enjoy thinking about things.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I like to get lost in thought.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I enjoy hearing new ideas.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I enjoy wild flights of fantasy.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am intrigued by patterns I find in art and nature.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I enjoy discussing movies and books with others.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I like to solve complex problems.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I think quickly and formulate ideas well.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I enjoy learning about different philosophies.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I enjoy analyzing things.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am fascinated by the way things work.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I enjoy exploring new places.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I often look for underlying principles.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I like to play with theories or abstract ideas.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am interested in science.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I appreciate unusual or unconventional ideas.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am often intrigued by artworks and art exhibits.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I enjoy attending theater performances or concerts.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am interested in learning about other cultures.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am curious about many different things.",
+          "isReverseScored": false
+        }
+      ]
+    },
+    {
+      "trait": "Conscientiousness",
+      "description": "A measure of one's reliability, organization, punctuality, and ability to regulate and control impulses.",
+      "questions": [
+        {
+          "text": "I am always prepared.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I pay attention to details.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I get chores done right away.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I like order.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I follow a schedule.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am exacting in my work.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I leave my belongings around.",
+          "isReverseScored": true
+        },
+        {
+          "text": "I make a mess of things.",
+          "isReverseScored": true
+        },
+        {
+          "text": "I often forget to put things back in their proper place.",
+          "isReverseScored": true
+        },
+        {
+          "text": "I shirk my duties.",
+          "isReverseScored": true
+        },
+        {
+          "text": "I am reliable and can always be counted on.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am efficient in my tasks.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am good at saving money.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I work hard to achieve my goals.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am thorough in my work.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am good at managing my time.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I strive to achieve more.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am a productive person.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am self-disciplined.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am organized in my tasks.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I plan ahead and avoid last-minute rushes.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I stick to my tasks until they are done.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I have a strong sense of duty and responsibility.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am careful not to make mistakes.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I like to have everything in its place.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I set high standards for myself.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am ambitious and work hard for success.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I take my obligations seriously.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am diligent and industrious.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I handle tasks methodically and systematically.",
+          "isReverseScored": false
+        }
+      ]
+    },
+    {
+      "trait": "Extraversion",
+      "description": "A measure of one's energy, assertiveness, sociability, and the tendency to seek stimulation in the company of others.",
+      "questions": [
+        {
+          "text": "I am the life of the party.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I feel comfortable around people.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I start conversations.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I talk to a lot of different people at parties.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I don't mind being the center of attention.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am quiet around strangers.",
+          "isReverseScored": true
+        },
+        {
+          "text": "I don't talk a lot.",
+          "isReverseScored": true
+        },
+        {
+          "text": "I keep in the background.",
+          "isReverseScored": true
+        },
+        {
+          "text": "I have little to say.",
+          "isReverseScored": true
+        },
+        {
+          "text": "I don't like to draw attention to myself.",
+          "isReverseScored": true
+        },
+        {
+          "text": "I am outgoing and sociable.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I enjoy being part of a group.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am energetic and full of life.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am assertive and speak up for myself.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I enjoy meeting new people.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am enthusiastic and express my feelings openly.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am friendly and make friends easily.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am talkative and enjoy engaging in conversations.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am good at influencing and persuading others.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am fun-loving and seek adventure.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am active and always on the go.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am cheerful and spread joy to others.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am optimistic and see the bright side of things.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am confident in social situations.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I enjoy sharing my thoughts with others.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am spontaneous and act on impulse.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I like to entertain and amuse people.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am playful and full of energy.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am open to new experiences and activities.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am a natural leader and take charge.",
+          "isReverseScored": false
+        }
+      ]
+    },
+    {
+      "trait": "Agreeableness",
+      "description": "A measure of one's tendency to be compassionate and cooperative rather than suspicious and antagonistic towards others.",
+      "questions": [
+        {
+          "text": "I am interested in people.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I sympathize with others' feelings.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I have a soft heart.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I take time out for others.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I feel others' emotions.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I make people feel at ease.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am not really interested in others.",
+          "isReverseScored": true
+        },
+        {
+          "text": "I insult people.",
+          "isReverseScored": true
+        },
+        {
+          "text": "I am not interested in other people's problems.",
+          "isReverseScored": true
+        },
+        {
+          "text": "I feel little concern for others.",
+          "isReverseScored": true
+        },
+        {
+          "text": "I am friendly and approachable.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am cooperative and helpful.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am considerate and kind to everyone.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I trust others and give them the benefit of the doubt.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am forgiving and understanding.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am willing to compromise and accommodate others.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am good-natured and pleasant.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am respectful and treat others with respect.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am patient with others.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am generous and willing to help.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am not quick to judge or criticize.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am supportive and provide encouragement.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am attentive to the needs of others.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am compassionate and caring.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I value harmony and avoid conflicts.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am diplomatic and tactful.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am modest and do not boast.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am sincere and genuine.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am tolerant and accept people as they are.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am altruistic and enjoy doing good for others.",
+          "isReverseScored": false
+        }
+      ]
+    },
+    {
+      "trait": "Neuroticism",
+      "description": "A measure of one's tendency to experience emotional instability, anxiety, moodiness, irritability, and sadness.",
+      "questions": [
+        {
+          "text": "I get stressed out easily.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I worry about things.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am easily disturbed.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I get upset easily.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I change my mood a lot.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I have frequent mood swings.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I get irritated easily.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I often feel blue.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am often down in the dumps.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I panic easily.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I seldom feel blue.",
+          "isReverseScored": true
+        },
+        {
+          "text": "I am relaxed most of the time.",
+          "isReverseScored": true
+        },
+        {
+          "text": "I seldom get mad.",
+          "isReverseScored": true
+        },
+        {
+          "text": "I am not easily bothered by things.",
+          "isReverseScored": true
+        },
+        {
+          "text": "I rarely get irritated.",
+          "isReverseScored": true
+        },
+        {
+          "text": "I am usually calm and composed.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am not easily frustrated.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I handle stress well.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am generally stable and not overly emotional.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I remain calm under pressure.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I do not often feel anxious or nervous.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I rarely feel sad or depressed.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am not prone to feelings of guilt or remorse.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I manage my emotions effectively.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am not overly sensitive to criticism.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I do not dwell on negative thoughts.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am able to bounce back quickly from setbacks.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I maintain a positive outlook even in difficult situations.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am generally content and at ease.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am not overly worried or fearful.",
+          "isReverseScored": false
+        }
+      ]
+    }
+  ]
+}
