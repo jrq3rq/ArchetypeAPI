@@ -22,6 +22,7 @@ api-project
 │ ├── services
 │ │ └── thirdPartyService.js
 │ ├── data
+│ │ ├── bigFiveData.json
 │ │ └── archetypes.json
 │ ├── models
 │ │ └── archetypeModel.js
