@@ -1,0 +1,163 @@
+Openness
+I have a rich vocabulary.
+I have excellent ideas.
+I am quick to understand things.
+I use difficult words.
+I spend time reflecting on things.
+I am full of ideas.
+I am not interested in abstract ideas. (Reverse scored)
+I do not have a good imagination. (Reverse scored)
+I am not interested in theoretical discussions. (Reverse scored)
+I am not interested in the arts. (Reverse scored)
+I enjoy thinking about things.
+I like to get lost in thought.
+I enjoy hearing new ideas.
+I enjoy wild flights of fantasy.
+I am intrigued by patterns I find in art and nature.
+I enjoy discussing movies and books with others.
+I like to solve complex problems.
+I think quickly and formulate ideas well.
+I enjoy learning about different philosophies.
+I enjoy analyzing things.
+I am fascinated by the way things work.
+I enjoy exploring new places.
+I often look for underlying principles.
+I like to play with theories or abstract ideas.
+I am interested in science.
+I appreciate unusual or unconventional ideas.
+I am often intrigued by artworks and art exhibits.
+I enjoy attending theater performances or concerts.
+I am interested in learning about other cultures.
+I am curious about many different things.
+
+Conscientiousness
+
+I am always prepared.
+I pay attention to details.
+I get chores done right away.
+I like order.
+I follow a schedule.
+I am exacting in my work.
+I leave my belongings around. (Reverse scored)
+I make a mess of things. (Reverse scored)
+I often forget to put things back in their proper place. (Reverse scored)
+I shirk my duties. (Reverse scored)
+I am reliable and can always be counted on.
+I am efficient in my tasks.
+I am good at saving money.
+I work hard to achieve my goals.
+I am thorough in my work.
+I am good at managing my time.
+I strive to achieve more.
+I am a productive person.
+I am self-disciplined.
+I am organized in my tasks.
+I plan ahead and avoid last-minute rushes.
+I stick to my tasks until they are done.
+I have a strong sense of duty and responsibility.
+I am careful not to make mistakes.
+I like to have everything in its place.
+I set high standards for myself.
+I am ambitious and work hard for success.
+I take my obligations seriously.
+I am diligent and industrious.
+I handle tasks methodically and systematically.
+
+Extraversion
+
+I am the life of the party.
+I feel comfortable around people.
+I start conversations.
+I talk to a lot of different people at parties.
+I don't mind being the center of attention.
+I am quiet around strangers. (Reverse scored)
+I don't talk a lot. (Reverse scored)
+I keep in the background. (Reverse scored)
+I have little to say. (Reverse scored)
+I don't like to draw attention to myself. (Reverse scored)
+I am outgoing and sociable.
+I enjoy being part of a group.
+I am energetic and full of life.
+I am assertive and speak up for myself.
+I enjoy meeting new people.
+I am enthusiastic and express my feelings openly.
+I am friendly and make friends easily.
+I am talkative and enjoy engaging in conversations.
+I am good at influencing and persuading others.
+I am fun-loving and seek adventure.
+I am active and always on the go.
+I am cheerful and spread joy to others.
+I am optimistic and see the bright side of things.
+I am confident in social situations.
+I enjoy sharing my thoughts with others.
+I am spontaneous and act on impulse.
+I like to entertain and amuse people.
+I am playful and full of energy.
+I am open to new experiences and activities.
+I am a natural leader and take charge.
+
+Agreeableness
+
+I am interested in people.
+I sympathize with others' feelings.
+I have a soft heart.
+I take time out for others.
+I feel others' emotions.
+I make people feel at ease.
+I am not really interested in others. (Reverse scored)
+I insult people. (Reverse scored)
+I am not interested in other people's problems. (Reverse scored)
+I feel little concern for others. (Reverse scored)
+I am friendly and approachable.
+I am cooperative and helpful.
+I am considerate and kind to everyone.
+I trust others and give them the benefit of the doubt.
+I am forgiving and understanding.
+I am willing to compromise and accommodate others.
+I am good-natured and pleasant.
+I am respectful and treat others with respect.
+I am patient with others.
+I am generous and willing to help.
+I am not quick to judge or criticize.
+I am supportive and provide encouragement.
+I am attentive to the needs of others.
+I am compassionate and caring.
+I value harmony and avoid conflicts.
+I am diplomatic and tactful.
+I am modest and do not boast.
+I am sincere and genuine.
+I am tolerant and accept people as they are.
+I am altruistic and enjoy doing good for others.
+
+Neuroticism
+
+I get stressed out easily.
+I worry about things.
+I am easily disturbed.
+I get upset easily.
+I change my mood a lot.
+I have frequent mood swings.
+I get irritated easily.
+I often feel blue.
+I am often down in the dumps.
+I panic easily.
+I seldom feel blue. (Reverse scored)
+I am relaxed most of the time. (Reverse scored)
+I seldom get mad. (Reverse scored)
+I am not easily bothered by things. (Reverse scored)
+I rarely get irritated. (Reverse scored)
+I am usually calm and composed.
+I am not easily frustrated.
+I handle stress well.
+I am generally stable and not overly emotional.
+I remain calm under pressure.
+I do not often feel anxious or nervous.
+I rarely feel sad or depressed.
+I am not prone to feelings of guilt or remorse.
+I manage my emotions effectively.
+I am not overly sensitive to criticism.
+I do not dwell on negative thoughts.
+I am able to bounce back quickly from setbacks.
+I maintain a positive outlook even in difficult situations.
+I am generally content and at ease.
+I am not overly worried or fearful.
