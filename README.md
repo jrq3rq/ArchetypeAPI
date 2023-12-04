@@ -10,28 +10,32 @@ api-project
 │ │ └── logo.png
 │ └── index.html
 ├── src
-│ ├── routes
-│ │ └── archetypes.js
+│ ├── config
+│ │ ├── firebaseConfig.js
+│ │ ├── winston.js
+│ │ └── database.js
+│ ├── controllers
+│ │ ├── bigFiveController.js
+│ │ └── archetypeController.js
+│ ├── data
+│ │ ├── bigFiveData.json
+│ │ └── archetypes.json
+│ ├── dataAccess
+│ │ ├── bigFiveDataAccess.js
+│ │ └── archetypeDataAccess,js
 │ ├── middleware
 │ │ ├── rateLimit.js
 │ │ ├── validation.js
 │ │ ├── errorHandling.js
 │ │ └── authentication.js
-│ ├── controllers
-│ │ └── archetypeController.js
-│ ├── services
-│ │ └── thirdPartyService.js
-│ ├── data
-│ │ ├── bigFiveData.json
-│ │ └── archetypes.json
 │ ├── models
+│ │ ├── bigFiveModel.js
 │ │ └── archetypeModel.js
-│ ├── lib
+│ ├── routes
+│ │ ├── bigFiveRoutes.js
+│ │ └── archetypes.js
+│ ├── utils
 │ │ └── lodashHelpers.js
-│ ├── config
-│ │ ├── firebaseConfig.js
-│ │ ├── winston.js
-│ │ └── database.js
 │ ├── app.js
 │ └── server.js
 ├── tests
@@ -39,8 +43,6 @@ api-project
 │ ├── users.test.js
 │ ├── posts.test.js
 │ └── comments.test.js
-├── logs
-│ └── appLogs.log
 ├── package.json
 ├── .gitignore
 ├── README.md

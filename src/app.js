@@ -12,9 +12,9 @@ const logger = require("./config/winston");
 const app = express();
 
 // Rate limiting
-// const rateLimit = require("./middleware/rateLimit");
+const rateLimitMiddleware = require("./middleware/rateLimit");
 
-// Use various middlewares
+// Use various middleware
 app.use(helmet());
 app.use(compression());
 app.use(morgan("dev"));
@@ -22,7 +22,7 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 // Apply rate limiting
-// app.use(rateLimit);
+app.use(rateLimitMiddleware);
 
 app.use("/status", (req, res) => {
   res.send("OK");
@@ -34,9 +34,7 @@ app.use((err, req, res, next) => {
       message: "Too many requests, please try again later",
     });
   }
-
   logger.error(err.stack);
-
   res.status(500).json({
     message: "Internal server error",
   });
@@ -47,13 +45,15 @@ app.use(
   "/swagger-ui",
   express.static(path.join(__dirname, "public", "swagger-ui"))
 );
-
 // Serve Swagger yaml file
 app.use("/docs", express.static(path.join(__dirname, "public", "docs")));
 
 // Define routes
 const archetypesRoutes = require("./routes/archetypes");
+const bigFiveRoutes = require("./routes/bigFiveRoutes"); // Importing Big Five routes
+
 app.use("/archetypes", archetypesRoutes);
+app.use("/bigfive", bigFiveRoutes); // New route for Big Five
 
 // Handle 404 errors
 app.use((req, res, next) => {
