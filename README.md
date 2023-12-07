@@ -9,6 +9,8 @@ api-project
 │ ├── assets
 │ │ └── logo.png
 │ └── index.html
+├── scripts
+│ └── update_questions_in_json.py
 ├── src
 │ ├── config
 │ │ ├── firebaseConfig.js
@@ -47,6 +49,7 @@ api-project
 ├── .gitignore
 ├── README.md
 ├── .env
+├── venv
 ├── firebase.json
 └── .firebaserc
 ```
