@@ -1,6 +1,7 @@
 // bigFiveModel.js
 // Load Big Five data
-const bigFiveData = require("../data/bigFiveData.json");
+const bigFiveData = require("../data/bigFiveDataTest.json");
+// const bigFiveData = require("../data/bigFiveData.json");
 
 class BigFiveTrait {
   constructor(data) {

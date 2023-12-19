@@ -4,12 +4,13 @@ const archetypesData = require("../data/archetypes.json");
 
 class Archetype {
   constructor(data) {
-    this.id = data.id; // Make sure your data has an 'id' for each archetype
-    this.name = data.name;
-    this.traits = data.traits;
-    this.motivations = data.motivations;
-    this.behaviors = data.behaviors;
-    this.interests = data.interests;
+    this.id = data.id; // Existing attribute
+    this.name = data.name; // Existing attribute
+    this.scores = data.scores; // New attribute for Big Five scores
+    this.traits = data.traits; // Existing attribute
+    this.motivations = data.motivations; // Existing attribute
+    this.behaviors = data.behaviors; // Existing attribute
+    this.interests = data.interests; // Existing attribute
   }
 }
 

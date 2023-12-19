@@ -1,6 +1,13 @@
 [
   {
     "name": "Rebel",
+    "scores": {
+      "Openness": 0.7,
+      "Conscientiousness": 0.3,
+      "Extraversion": 0.6,
+      "Agreeableness": 0.2,
+      "Neuroticism": 0.5
+    },
     "traits": [
       "Defiant",
       "Disruptive",
@@ -26,6 +33,13 @@
   },
   {
     "name": "Magician",
+    "scores": {
+      "Openness": 0.8,
+      "Conscientiousness": 0.5,
+      "Extraversion": 0.7,
+      "Agreeableness": 0.4,
+      "Neuroticism": 0.3
+    },
     "traits": [
       "Visionary",
       "Influential",
@@ -51,6 +65,13 @@
   },
   {
     "name": "Hero",
+    "scores": {
+      "Openness": 0.6,
+      "Conscientiousness": 0.7,
+      "Extraversion": 0.8,
+      "Agreeableness": 0.6,
+      "Neuroticism": 0.4
+    },
     "traits": [
       "Courageous",
       "Competent",
@@ -76,6 +97,13 @@
   },
   {
     "name": "Creator",
+    "scores": {
+      "Openness": 0.9,
+      "Conscientiousness": 0.6,
+      "Extraversion": 0.5,
+      "Agreeableness": 0.5,
+      "Neuroticism": 0.3
+    },
     "traits": [
       "Innovative",
       "Imaginative",
@@ -101,6 +129,13 @@
   },
   {
     "name": "Ruler",
+    "scores": {
+      "Openness": 0.5,
+      "Conscientiousness": 0.8,
+      "Extraversion": 0.7,
+      "Agreeableness": 0.3,
+      "Neuroticism": 0.4
+    },
     "traits": [
       "Authoritative",
       "Disciplined",
@@ -126,6 +161,13 @@
   },
   {
     "name": "Caregiver",
+    "scores": {
+      "Openness": 0.4,
+      "Conscientiousness": 0.7,
+      "Extraversion": 0.6,
+      "Agreeableness": 0.8,
+      "Neuroticism": 0.5
+    },
     "traits": [
       "Compassionate",
       "Generous",
@@ -151,6 +193,13 @@
   },
   {
     "name": "Innocent",
+    "scores": {
+      "Openness": 0.4,
+      "Conscientiousness": 0.6,
+      "Extraversion": 0.4,
+      "Agreeableness": 0.7,
+      "Neuroticism": 0.3
+    },
     "traits": ["Optimistic", "Faithful", "Naive", "Traditional", "Virtuous"],
     "motivations": ["Happiness", "Belonging", "Safety", "Simplicity"],
     "behaviors": [
@@ -170,6 +219,13 @@
   },
   {
     "name": "Sage",
+    "scores": {
+      "Openness": 0.9,
+      "Conscientiousness": 0.7,
+      "Extraversion": 0.5,
+      "Agreeableness": 0.6,
+      "Neuroticism": 0.2
+    },
     "traits": [
       "Cerebral",
       "Insightful",
@@ -195,6 +251,13 @@
   },
   {
     "name": "Explorer",
+    "scores": {
+      "Openness": 0.9,
+      "Conscientiousness": 0.4,
+      "Extraversion": 0.8,
+      "Agreeableness": 0.5,
+      "Neuroticism": 0.4
+    },
     "traits": [
       "Autonomous",
       "Adventurous",
@@ -220,6 +283,13 @@
   },
   {
     "name": "Lover",
+    "scores": {
+      "Openness": 0.6,
+      "Conscientiousness": 0.5,
+      "Extraversion": 0.7,
+      "Agreeableness": 0.8,
+      "Neuroticism": 0.4
+    },
     "traits": ["Passionate", "Sensual", "Dramatic", "Aesthetic", "Romantic"],
     "motivations": ["Intimacy", "Beauty", "Love", "Self-indulgence"],
     "behaviors": [
@@ -239,6 +309,13 @@
   },
   {
     "name": "Joker",
+    "scores": {
+      "Openness": 0.8,
+      "Conscientiousness": 0.4,
+      "Extraversion": 0.9,
+      "Agreeableness": 0.3,
+      "Neuroticism": 0.6
+    },
     "traits": [
       "Playful",
       "Absurdist",
@@ -264,6 +341,13 @@
   },
   {
     "name": "Everyman",
+    "scores": {
+      "Openness": 0.5,
+      "Conscientiousness": 0.6,
+      "Extraversion": 0.5,
+      "Agreeableness": 0.7,
+      "Neuroticism": 0.4
+    },
     "traits": [
       "Practical",
       "Conventional",
