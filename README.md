@@ -49,9 +49,7 @@ api-project
 ├── .gitignore
 ├── README.md
 ├── .env
-├── venv
-├── firebase.json
-└── .firebaserc
+└── venv
 ```
 
 ## 1. Project Initialization
