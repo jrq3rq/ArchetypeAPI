@@ -1,0 +1,209 @@
+openapi: 3.0.0
+info:
+  title: Archetype API
+  version: 1.0.0
+  description: API for accessing and managing archetypal data
+servers:
+  - url: "https://your-project-id.cloudfunctions.net/api"
+    description: Production server
+  - url: "http://localhost:3000"
+    description: Local development server
+  - url: "https://dev.example.com/v1"
+    description: Development server
+  - url: "https://api.example.com/v1"
+    description: Production server
+paths:
+  /archetypes:
+    get:
+      summary: Get all archetypes
+      tags:
+        - Archetypes
+      parameters:
+        - in: query
+          name: name
+          schema:
+            type: string
+          required: false
+          description: Filter by archetype name
+      responses:
+        "200":
+          description: A list of archetypes
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Archetype"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "500":
+          $ref: "#/components/responses/ServerError"
+  "/archetypes/{id}":
+    get:
+      summary: Get a single archetype by ID
+      tags:
+        - Archetypes
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+          description: Unique identifier of the archetype
+      responses:
+        "200":
+          description: Detailed information about an archetype
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Archetype"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "500":
+          $ref: "#/components/responses/ServerError"
+  /bigfive:
+    get:
+      summary: Get all Big Five traits and their questions
+      tags:
+        - BigFive
+      responses:
+        "200":
+          description: A list of Big Five traits and questions
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/BigFiveTrait"
+  /bigfive/{trait}:
+    get:
+      summary: Get questions for a specific Big Five trait
+      tags:
+        - BigFive
+      parameters:
+        - in: path
+          name: trait
+          required: true
+          schema:
+            type: string
+          description: Name of the Big Five trait
+      responses:
+        "200":
+          description: List of questions for the specified Big Five trait
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Question"
+        "404":
+          $ref: "#/components/responses/NotFound"
+components:
+schemas:
+  Archetype:
+    type: object
+    properties:
+      name:
+        type: string
+      scores:
+        $ref: "#/components/schemas/ArchetypeScores"
+      traits:
+        type: array
+        items:
+          type: string
+      motivations:
+        type: array
+        items:
+          type: string
+      behaviors:
+        type: array
+        items:
+          type: string
+      interests:
+        type: array
+        items:
+          type: string
+  ArchetypeScores:
+    type: object
+    properties:
+      Openness:
+        type: number
+        format: double
+      Conscientiousness:
+        type: number
+        format: double
+      Extraversion:
+        type: number
+        format: double
+      Agreeableness:
+        type: number
+        format: double
+      Neuroticism:
+        type: number
+        format: double
+  Error:
+    type: object
+    properties:
+      code:
+        type: integer
+        format: int32
+      message:
+        type: string
+  BigFiveTrait:
+    type: object
+    properties:
+      trait:
+        type: string
+      description:
+        type: string
+      questions:
+        type: array
+        items:
+          $ref: "#/components/schemas/Question"
+  Question:
+    type: object
+    properties:
+      text:
+        type: string
+      isReverseScored:
+        type: boolean
+        description: Indicates if the question is reverse scored
+  responses:
+    BadRequest:
+    description: Invalid request parameters
+    content:
+      application/json:
+        schema:
+          $ref: "#/components/schemas/Error"
+  Unauthorized:
+    description: Authentication required
+    content:
+      application/json:
+        schema:
+          $ref: "#/components/schemas/Error"
+  NotFound:
+    description: Archetype not found
+    content:
+      application/json:
+        schema:
+          $ref: "#/components/schemas/Error"
+  ServerError:
+    description: Internal Server Error
+    content:
+      application/json:
+        schema:
+          $ref: "#/components/schemas/Error"
+  securitySchemes:
+    ApiKeyAuth:
+    type: apiKey
+    in: header
+    name: X-API-KEY
+security:
+  - ApiKeyAuth: []
+tags:
+  - name: Archetypes
+    description: Operations related to archetypes

@@ -1,0 +1,374 @@
+[
+  {
+    "name": "Rebel",
+    "scores": {
+      "Openness": 0.7,
+      "Conscientiousness": 0.3,
+      "Extraversion": 0.6,
+      "Agreeableness": 0.2,
+      "Neuroticism": 0.5
+    },
+    "traits": [
+      "Defiant",
+      "Disruptive",
+      "Autonomous",
+      "Instinctual",
+      "Provocative"
+    ],
+    "motivations": ["Revolution", "Retribution", "Independence", "Catharsis"],
+    "behaviors": [
+      "Disobedience",
+      "Aggression",
+      "Risk-taking",
+      "Unpredictability",
+      "Recklessness"
+    ],
+    "interests": [
+      "Organizing protests or activism.",
+      "Creating controversial art or media.",
+      "Competing in extreme/underground sports.",
+      "Working independently with few constraints.",
+      "Pushing boundaries of what's acceptable."
+    ]
+  },
+  {
+    "name": "Magician",
+    "scores": {
+      "Openness": 0.8,
+      "Conscientiousness": 0.5,
+      "Extraversion": 0.7,
+      "Agreeableness": 0.4,
+      "Neuroticism": 0.3
+    },
+    "traits": [
+      "Visionary",
+      "Influential",
+      "Insightful",
+      "Transformative",
+      "Confident"
+    ],
+    "motivations": ["Understanding", "Advisement", "Change", "Achievement"],
+    "behaviors": [
+      "Charisma",
+      "Strategizing",
+      "Communication",
+      "Intuitiveness",
+      "Pragmatism"
+    ],
+    "interests": [
+      "Teaching, mentoring, counseling roles",
+      "Leadership positions to guide change",
+      "Consultancy to provide expert advice",
+      "Entrepreneurial ventures and startups",
+      "Politics, activism, social justice causes"
+    ]
+  },
+  {
+    "name": "Hero",
+    "scores": {
+      "Openness": 0.6,
+      "Conscientiousness": 0.7,
+      "Extraversion": 0.8,
+      "Agreeableness": 0.6,
+      "Neuroticism": 0.4
+    },
+    "traits": [
+      "Courageous",
+      "Competent",
+      "Disciplined",
+      "Protective",
+      "Determined"
+    ],
+    "motivations": ["Achievement", "Strength", "Mastery", "Justice"],
+    "behaviors": [
+      "Confidence",
+      "Decisiveness",
+      "Directness",
+      "Independence",
+      "Competitiveness"
+    ],
+    "interests": [
+      "Taking the lead on projects and teams",
+      "Working in challenging environments",
+      "Competing in sports/contests",
+      "Protecting and advocating for others",
+      "Overcoming adversity and obstacles"
+    ]
+  },
+  {
+    "name": "Creator",
+    "scores": {
+      "Openness": 0.9,
+      "Conscientiousness": 0.6,
+      "Extraversion": 0.5,
+      "Agreeableness": 0.5,
+      "Neuroticism": 0.3
+    },
+    "traits": [
+      "Innovative",
+      "Imaginative",
+      "Artistic",
+      "Unconventional",
+      "Expressive"
+    ],
+    "motivations": ["Creation", "Originality", "Vision", "Inspiration"],
+    "behaviors": [
+      "Experimentation",
+      "Individualism",
+      "Dedication",
+      "Perfectionism",
+      "Introspection"
+    ],
+    "interests": [
+      "Writing, poetry, painting, sculpture, crafts",
+      "Composing music or films",
+      "Designing - graphics, products, architecture, etc.",
+      "Inventing solutions and pushing boundaries",
+      "Photography, decor, fashion design"
+    ]
+  },
+  {
+    "name": "Ruler",
+    "scores": {
+      "Openness": 0.5,
+      "Conscientiousness": 0.8,
+      "Extraversion": 0.7,
+      "Agreeableness": 0.3,
+      "Neuroticism": 0.4
+    },
+    "traits": [
+      "Authoritative",
+      "Disciplined",
+      "Decisive",
+      "Stable",
+      "Commanding"
+    ],
+    "motivations": ["Control", "Order", "Power", "Security"],
+    "behaviors": [
+      "Directness",
+      "Assertion",
+      "Caution",
+      "Traditionalism",
+      "Perfectionism"
+    ],
+    "interests": [
+      "Management and executive positions.",
+      "Government, law enforcement, and judiciary.",
+      "Financial planning and asset management.",
+      "Overseeing processes, quality control, auditing.",
+      "Setting rules, policies, standards, procedures."
+    ]
+  },
+  {
+    "name": "Caregiver",
+    "scores": {
+      "Openness": 0.4,
+      "Conscientiousness": 0.7,
+      "Extraversion": 0.6,
+      "Agreeableness": 0.8,
+      "Neuroticism": 0.5
+    },
+    "traits": [
+      "Compassionate",
+      "Generous",
+      "Patient",
+      "Nurturing",
+      "Altruistic"
+    ],
+    "motivations": ["Helping", "Meaning", "Belonging", "Stability"],
+    "behaviors": [
+      "Listening",
+      "Caregiving",
+      "Advice-giving",
+      "Accommodating",
+      "Diplomatic"
+    ],
+    "interests": [
+      "Volunteering to help disadvantaged groups",
+      "Mentoring, teaching, or counseling roles",
+      "Providing health care or social services",
+      "Creating a loving home and family life",
+      "Connecting people to helpful resources"
+    ]
+  },
+  {
+    "name": "Innocent",
+    "scores": {
+      "Openness": 0.4,
+      "Conscientiousness": 0.6,
+      "Extraversion": 0.4,
+      "Agreeableness": 0.7,
+      "Neuroticism": 0.3
+    },
+    "traits": ["Optimistic", "Faithful", "Naive", "Traditional", "Virtuous"],
+    "motivations": ["Happiness", "Belonging", "Safety", "Simplicity"],
+    "behaviors": [
+      "Displays kindness",
+      "Polite",
+      "Playful",
+      "Sentimental",
+      "Naive"
+    ],
+    "interests": [
+      "Being part of a community, group, or family",
+      "Having reliable friendships and relationships",
+      "Working in roles that help people directly",
+      "Organizing celebrations and social events",
+      "Faith-based activities and organizations"
+    ]
+  },
+  {
+    "name": "Sage",
+    "scores": {
+      "Openness": 0.9,
+      "Conscientiousness": 0.7,
+      "Extraversion": 0.5,
+      "Agreeableness": 0.6,
+      "Neuroticism": 0.2
+    },
+    "traits": [
+      "Cerebral",
+      "Insightful",
+      "Philosophical",
+      "Knowledgeable",
+      "Observant"
+    ],
+    "motivations": ["Truth", "Understanding", "Curiosity", "Clarity"],
+    "behaviors": [
+      "Analysis",
+      "Objectivity",
+      "Theorizing",
+      "Thoughtfulness",
+      "Articulateness"
+    ],
+    "interests": [
+      "Academic learning and research",
+      "Science, philosophy, history, psychology",
+      "Strategizing, theorizing, intellectually debating",
+      "Writing, blogging, journalism",
+      "Consulting, advising, think tanks"
+    ]
+  },
+  {
+    "name": "Explorer",
+    "scores": {
+      "Openness": 0.9,
+      "Conscientiousness": 0.4,
+      "Extraversion": 0.8,
+      "Agreeableness": 0.5,
+      "Neuroticism": 0.4
+    },
+    "traits": [
+      "Autonomous",
+      "Adventurous",
+      "Curious",
+      "Energetic",
+      "Nonconformist"
+    ],
+    "motivations": ["Freedom", "Discovery", "Variety", "Naturalism"],
+    "behaviors": [
+      "Spontaneous",
+      "Risk-taking",
+      "Adaptability",
+      "Inquisitiveness",
+      "Independence"
+    ],
+    "interests": [
+      "Travel and exposure to new cultures",
+      "Extreme sports and physical challenges",
+      "Research, learning and intellectual pursuits",
+      "Living an unconventional lifestyle",
+      "Interacting with nature and the outdoors"
+    ]
+  },
+  {
+    "name": "Lover",
+    "scores": {
+      "Openness": 0.6,
+      "Conscientiousness": 0.5,
+      "Extraversion": 0.7,
+      "Agreeableness": 0.8,
+      "Neuroticism": 0.4
+    },
+    "traits": ["Passionate", "Sensual", "Dramatic", "Aesthetic", "Romantic"],
+    "motivations": ["Intimacy", "Beauty", "Love", "Self-indulgence"],
+    "behaviors": [
+      "Affection",
+      "Sexuality",
+      "Attachment",
+      "Impulsiveness",
+      "Melodrama"
+    ],
+    "interests": [
+      "The arts - music, dance, poetry, sculpture, etc.",
+      "Design and creative fields",
+      "Lavish entertaining and cuisine",
+      "Fashion and glamour",
+      "Romance, relationships, sexuality"
+    ]
+  },
+  {
+    "name": "Joker",
+    "scores": {
+      "Openness": 0.8,
+      "Conscientiousness": 0.4,
+      "Extraversion": 0.9,
+      "Agreeableness": 0.3,
+      "Neuroticism": 0.6
+    },
+    "traits": [
+      "Playful",
+      "Absurdist",
+      "Provocative",
+      "Perceptive",
+      "Unconventional"
+    ],
+    "motivations": ["Joy", "Rebellion", "Paradox", "Disillusionment"],
+    "behaviors": [
+      "Joking",
+      "Pranks",
+      "Impulsiveness",
+      "Exaggeration",
+      "Contrarianism"
+    ],
+    "interests": [
+      "Comedy and improvisation",
+      "Social satire and parody",
+      "Puzzles, wordplay, abstract thinking",
+      "Testing boundaries and breaking taboos",
+      "Finding inconsistencies in conventional thinking"
+    ]
+  },
+  {
+    "name": "Everyman",
+    "scores": {
+      "Openness": 0.5,
+      "Conscientiousness": 0.6,
+      "Extraversion": 0.5,
+      "Agreeableness": 0.7,
+      "Neuroticism": 0.4
+    },
+    "traits": [
+      "Practical",
+      "Conventional",
+      "Down-to-earth",
+      "Friendly",
+      "Responsible"
+    ],
+    "motivations": ["Normalcy", "Belonging", "Security", "Acceptance"],
+    "behaviors": [
+      "Displays modesty",
+      "Adaptability",
+      "Thoughtful",
+      "Hard working",
+      "Thrifty"
+    ],
+    "interests": [
+      "Being active in community groups",
+      "Social activities with friends/family",
+      "Working steady, reliable jobs",
+      "Participating in traditions and institutions",
+      "Living a modest, down-to-earth lifestyle"
+    ]
+  }
+]
