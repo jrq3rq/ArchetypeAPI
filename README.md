@@ -2,6 +2,11 @@
 
 ```markdown
 api-project
+├── functions
+│ ├── .eslintrc.js
+│ ├── .gitignore
+│ ├── index.js
+│ └── package.json
 ├── public
 │ ├── docs
 │ │ └── swagger.yaml
@@ -49,7 +54,9 @@ api-project
 ├── .gitignore
 ├── README.md
 ├── .env
-└── venv
+├── venv
+├── firebase.json
+└── .firebaserc
 ```
 
 ## 1. Project Initialization

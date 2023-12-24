@@ -1,0 +1,114 @@
+{
+  "traits": [
+    {
+      "trait": "Openness",
+      "description": "A measure of one's appreciation for art, emotion, adventure, unusual ideas, imagination, curiosity, and variety of experience.",
+      "questions": [
+        {
+          "text": "I have a rich vocabulary.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I have excellent ideas.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am quick to understand things.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I use difficult words.",
+          "isReverseScored": false
+        }
+      ]
+    },
+    {
+      "trait": "Conscientiousness",
+      "description": "A measure of one's reliability, organization, punctuality, and ability to regulate and control impulses.",
+      "questions": [
+        {
+          "text": "I am always prepared.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I pay attention to details.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I get chores done right away.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I like order.",
+          "isReverseScored": false
+        }
+      ]
+    },
+    {
+      "trait": "Extraversion",
+      "description": "A measure of one's energy, assertiveness, sociability, and the tendency to seek stimulation in the company of others.",
+      "questions": [
+        {
+          "text": "I am the life of the party.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I feel comfortable around people.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I start conversations.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I talk to a lot of different people at parties.",
+          "isReverseScored": false
+        }
+      ]
+    },
+    {
+      "trait": "Agreeableness",
+      "description": "A measure of one's tendency to be compassionate and cooperative rather than suspicious and antagonistic towards others.",
+      "questions": [
+        {
+          "text": "I am interested in people.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I sympathize with others' feelings.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I have a soft heart.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I take time out for others.",
+          "isReverseScored": false
+        }
+      ]
+    },
+    {
+      "trait": "Neuroticism",
+      "description": "A measure of one's tendency to experience emotional instability, anxiety, moodiness, irritability, and sadness.",
+      "questions": [
+        {
+          "text": "I get stressed out easily.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I worry about things.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I am easily disturbed.",
+          "isReverseScored": false
+        },
+        {
+          "text": "I get upset easily.",
+          "isReverseScored": false
+        }
+      ]
+    }
+  ]
+}
