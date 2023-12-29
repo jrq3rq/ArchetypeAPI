@@ -1,10 +1,13 @@
 // archetypeModel.js
 // Load archetype data
 const archetypesData = require("../data/archetypes.json");
+const { v4: uuidv4 } = require("uuid");
 
 class Archetype {
   constructor(data) {
-    this.id = data.id; // Existing attribute
+    this.order = data.order; // Existing attribute
+    this.id = data.id || uuidv4(); // Generate UUID if not present
+    this.timestamp = data.timestamp || new Date().toISOString(); // Adding a timestamp
     this.name = data.name; // Existing attribute
     this.scores = data.scores; // New attribute for Big Five scores
     this.traits = data.traits; // Existing attribute
@@ -23,6 +26,14 @@ class ArchetypeModel {
   // Returns all archetypes
   findAll() {
     return this.archetypes;
+  }
+
+  // Method to filter archetypes by order
+  findByOrder(order) {
+    const normalizedOrder = order.toLowerCase();
+    return this.archetypes.filter(
+      (archetype) => archetype.order.toLowerCase() === normalizedOrder
+    );
   }
 
   // Finds a single archetype by id

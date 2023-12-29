@@ -31,6 +31,9 @@ router.get("/by-behavior/:behavior", archetypeController.getByBehavior);
 // Route for filtering by interest
 router.get("/by-interest/:interest", archetypeController.getByInterest);
 
+// Route for getting archetypes by order
+router.get("/by-order/:order", archetypeController.getByOrder);
+
 // Paginated results
 router.get("/page/:page", archetypeController.paginate);
 

@@ -34,6 +34,24 @@ exports.getByName = (req, res) => {
   }
 };
 
+exports.getByOrder = (req, res) => {
+  try {
+    const order = req.params.order; // Get the 'order' parameter from the request
+    const archetypes = ArchetypeModel.findByOrder(order);
+    if (archetypes.length === 0) {
+      return res
+        .status(404)
+        .json({ message: `No archetypes found for order '${order}'` });
+    }
+    res.json(archetypes);
+  } catch (error) {
+    res.status(500).json({
+      message: "An error occurred while retrieving archetypes by order.",
+      error: error.message,
+    });
+  }
+};
+
 exports.getByTrait = (req, res) => {
   try {
     const { trait } = req.params;
