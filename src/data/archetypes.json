@@ -1,5 +1,6 @@
 [
   {
+    "order": "Ego",
     "name": "Rebel",
     "scores": {
       "Openness": 0.7,
@@ -32,6 +33,7 @@
     ]
   },
   {
+    "order": "Ego",
     "name": "Magician",
     "scores": {
       "Openness": 0.8,
@@ -64,6 +66,7 @@
     ]
   },
   {
+    "order": "Ego",
     "name": "Hero",
     "scores": {
       "Openness": 0.6,
@@ -96,6 +99,7 @@
     ]
   },
   {
+    "order": "Personal",
     "name": "Creator",
     "scores": {
       "Openness": 0.9,
@@ -128,6 +132,7 @@
     ]
   },
   {
+    "order": "Personal",
     "name": "Ruler",
     "scores": {
       "Openness": 0.5,
@@ -160,6 +165,7 @@
     ]
   },
   {
+    "order": "Personal",
     "name": "Caregiver",
     "scores": {
       "Openness": 0.4,
@@ -192,6 +198,7 @@
     ]
   },
   {
+    "order": "Transpersonal",
     "name": "Innocent",
     "scores": {
       "Openness": 0.4,
@@ -218,6 +225,7 @@
     ]
   },
   {
+    "order": "Transpersonal",
     "name": "Sage",
     "scores": {
       "Openness": 0.9,
@@ -250,6 +258,7 @@
     ]
   },
   {
+    "order": "Transpersonal",
     "name": "Explorer",
     "scores": {
       "Openness": 0.9,
@@ -282,6 +291,7 @@
     ]
   },
   {
+    "order": "Collective",
     "name": "Lover",
     "scores": {
       "Openness": 0.6,
@@ -308,6 +318,7 @@
     ]
   },
   {
+    "order": "Collective",
     "name": "Joker",
     "scores": {
       "Openness": 0.8,
@@ -340,6 +351,7 @@
     ]
   },
   {
+    "order": "Collective",
     "name": "Everyman",
     "scores": {
       "Openness": 0.5,
