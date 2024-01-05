@@ -127,6 +127,26 @@ exports.getByInterest = (req, res) => {
   }
 };
 
+// Get archetypes by rating strength
+exports.findByRatingStrength = (req, res) => {
+  try {
+    const strength = parseInt(req.params.strength, 10);
+    const archetypes = ArchetypeModel.findByRatingStrength(strength);
+    if (!archetypes || archetypes.length === 0) {
+      return res.status(404).json({
+        message: `No archetypes found with strength rating of ${strength} or higher`,
+      });
+    }
+    res.json(archetypes);
+  } catch (error) {
+    res.status(500).json({
+      message:
+        "An error occurred while retrieving archetypes by rating strength.",
+      error: error.message,
+    });
+  }
+};
+
 // Search by name
 exports.search = (req, res) => {
   try {
@@ -182,6 +202,42 @@ exports.filter = (req, res) => {
   } catch (error) {
     res.status(500).json({
       message: "An error occurred while filtering archetypes.",
+      error: error.message,
+    });
+  }
+};
+
+exports.getByPlanet = (req, res) => {
+  try {
+    const planet = req.params.planet;
+    const archetypes = ArchetypeModel.findByPlanet(planet);
+    if (archetypes.length === 0) {
+      return res
+        .status(404)
+        .json({ message: `No archetypes found for '${planet}'` });
+    }
+    res.json(archetypes);
+  } catch (error) {
+    res.status(500).json({
+      message: "An error occurred while retrieving archetypes by planet.",
+      error: error.message,
+    });
+  }
+};
+
+exports.getByThirdEye = (req, res) => {
+  try {
+    const thirdEye = req.params.thirdEye;
+    const archetypes = ArchetypeModel.findByThirdEye(thirdEye);
+    if (archetypes.length === 0) {
+      return res
+        .status(404)
+        .json({ message: `No archetypes found for '${thirdEye}'` });
+    }
+    res.json(archetypes);
+  } catch (error) {
+    res.status(500).json({
+      message: "An error occurred while retrieving archetypes by thirdEye.",
       error: error.message,
     });
   }

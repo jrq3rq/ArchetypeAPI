@@ -7,7 +7,9 @@ class BigFiveTrait {
   constructor(data) {
     this.trait = data.trait;
     this.description = data.description;
+    this.subheaderDescription = data.subheaderDescription;
     this.questions = data.questions;
+    this.subheader = data.subheader;
   }
 
   // Method to find a question by text

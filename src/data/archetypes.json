@@ -2,12 +2,35 @@
   {
     "order": "Ego",
     "name": "Rebel",
+    "motto": "follow your own rules",
+    "mission": " Represent rebellion, revolution, and breaking the rules",
+    "color": "#F0822A",
+    "planet": "Moonstone",
+    "thirdEye": "Hexagon",
     "scores": {
       "Openness": 0.7,
       "Conscientiousness": 0.3,
       "Extraversion": 0.6,
       "Agreeableness": 0.2,
       "Neuroticism": 0.5
+    },
+    "ratings": {
+      "strength": 4,
+      "endurance": 3,
+      "agility": 3,
+      "speed": 3,
+      "flexibility": 2,
+      "coordination": 3,
+      "balance": 3,
+      "power": 4
+    },
+    "characteristics": {
+      "intelligence": 0.7,
+      "creativity": 0.9,
+      "EQ": 0.6,
+      "motivation": 0.8,
+      "confidence": 0.7,
+      "empathy": 0.5
     },
     "traits": [
       "Defiant",
@@ -35,12 +58,35 @@
   {
     "order": "Ego",
     "name": "Magician",
+    "motto": "Make dreams a reality",
+    "mission": "Make the impossible possible",
+    "color": "#F1AC2A",
+    "planet": "Moonstone",
+    "thirdEye": "Hexagon",
     "scores": {
       "Openness": 0.8,
       "Conscientiousness": 0.5,
       "Extraversion": 0.7,
       "Agreeableness": 0.4,
       "Neuroticism": 0.3
+    },
+    "ratings": {
+      "strength": 4,
+      "endurance": 4,
+      "agility": 4,
+      "speed": 4,
+      "flexibility": 4,
+      "coordination": 4,
+      "balance": 4,
+      "power": 4
+    },
+    "characteristics": {
+      "intelligence": 0.8,
+      "creativity": 0.9,
+      "EQ": 0.7,
+      "motivation": 0.8,
+      "confidence": 0.9,
+      "empathy": 0.6
     },
     "traits": [
       "Visionary",
@@ -68,12 +114,35 @@
   {
     "order": "Ego",
     "name": "Hero",
+    "motto": "Be the hero in your own story",
+    "mission": "Represent courage, determination, and strength",
+    "color": "#FDE802",
+    "planet": "Moonstone",
+    "thirdEye": "Hexagon",
     "scores": {
       "Openness": 0.6,
       "Conscientiousness": 0.7,
       "Extraversion": 0.8,
       "Agreeableness": 0.6,
       "Neuroticism": 0.4
+    },
+    "ratings": {
+      "strength": 4.5,
+      "endurance": 3.5,
+      "agility": 3.5,
+      "speed": 3.5,
+      "flexibility": 2.5,
+      "coordination": 3.5,
+      "balance": 3.5,
+      "power": 4.5
+    },
+    "characteristics": {
+      "intelligence": 0.7,
+      "creativity": 0.6,
+      "EQ": 0.5,
+      "motivation": 0.9,
+      "confidence": 0.8,
+      "empathy": 0.4
     },
     "traits": [
       "Courageous",
@@ -101,12 +170,35 @@
   {
     "order": "Personal",
     "name": "Creator",
+    "motto": "Create something new",
+    "mission": "Represent imagination, innovation, and self-expression",
+    "color": "#362D93",
+    "planet": "Desertstone",
+    "thirdEye": "Octagon",
     "scores": {
       "Openness": 0.9,
       "Conscientiousness": 0.6,
       "Extraversion": 0.5,
       "Agreeableness": 0.5,
       "Neuroticism": 0.3
+    },
+    "ratings": {
+      "strength": 2,
+      "endurance": 3,
+      "agility": 3,
+      "speed": 3,
+      "flexibility": 3,
+      "coordination": 3,
+      "balance": 3,
+      "power": 3
+    },
+    "characteristics": {
+      "intelligence": 0.8,
+      "creativity": 0.9,
+      "EQ": 0.7,
+      "motivation": 0.8,
+      "confidence": 0.9,
+      "empathy": 0.6
     },
     "traits": [
       "Innovative",
@@ -134,12 +226,35 @@
   {
     "order": "Personal",
     "name": "Ruler",
+    "motto": "Lead with strength and vision",
+    "mission": "Represent power, authority, and control",
+    "color": "#0474BC",
+    "planet": "Desertstone",
+    "thirdEye": "Octagon",
     "scores": {
       "Openness": 0.5,
       "Conscientiousness": 0.8,
       "Extraversion": 0.7,
       "Agreeableness": 0.3,
       "Neuroticism": 0.4
+    },
+    "ratings": {
+      "strength": 3,
+      "endurance": 3,
+      "agility": 3,
+      "speed": 3,
+      "flexibility": 2,
+      "coordination": 3,
+      "balance": 3,
+      "power": 3
+    },
+    "characteristics": {
+      "intelligence": 0.9,
+      "creativity": 0.6,
+      "EQ": 0.8,
+      "motivation": 0.9,
+      "confidence": 0.8,
+      "empathy": 0.5
     },
     "traits": [
       "Authoritative",
@@ -167,12 +282,35 @@
   {
     "order": "Personal",
     "name": "Caregiver",
+    "motto": "Care and protect others",
+    "mission": "Represent compassion, generosity, and nurturing",
+    "color": "#00A6DF",
+    "planet": "Desertstone",
+    "thirdEye": "Octagon",
     "scores": {
       "Openness": 0.4,
       "Conscientiousness": 0.7,
       "Extraversion": 0.6,
       "Agreeableness": 0.8,
       "Neuroticism": 0.5
+    },
+    "ratings": {
+      "strength": 2,
+      "endurance": 4,
+      "agility": 2,
+      "speed": 2,
+      "flexibility": 3,
+      "coordination": 4,
+      "balance": 3,
+      "power": 3
+    },
+    "characteristics": {
+      "intelligence": 0.8,
+      "creativity": 0.6,
+      "EQ": 0.9,
+      "motivation": 0.7,
+      "confidence": 0.7,
+      "empathy": 0.9
     },
     "traits": [
       "Compassionate",
@@ -200,12 +338,35 @@
   {
     "order": "Transpersonal",
     "name": "Innocent",
+    "motto": "Be happy",
+    "mission": "Represent simplicity, purity, and optimism",
+    "color": "#1A7349",
+    "planet": "Waterstone",
+    "thirdEye": "Teardrop",
     "scores": {
       "Openness": 0.4,
       "Conscientiousness": 0.6,
       "Extraversion": 0.4,
       "Agreeableness": 0.7,
       "Neuroticism": 0.3
+    },
+    "ratings": {
+      "strength": 2,
+      "endurance": 3,
+      "agility": 2,
+      "speed": 2,
+      "flexibility": 3,
+      "coordination": 3,
+      "balance": 3,
+      "power": 2
+    },
+    "characteristics": {
+      "intelligence": 0.8,
+      "creativity": 0.9,
+      "EQ": 0.7,
+      "motivation": 0.6,
+      "confidence": 0.5,
+      "empathy": 0.9
     },
     "traits": ["Optimistic", "Faithful", "Naive", "Traditional", "Virtuous"],
     "motivations": ["Happiness", "Belonging", "Safety", "Simplicity"],
@@ -227,12 +388,35 @@
   {
     "order": "Transpersonal",
     "name": "Sage",
+    "motto": "Knowledge is power",
+    "mission": "Represent knowledge, wisdom, and insight ",
+    "color": "#35B276",
+    "planet": "Waterstone",
+    "thirdEye": "Teardrop",
     "scores": {
       "Openness": 0.9,
       "Conscientiousness": 0.7,
       "Extraversion": 0.5,
       "Agreeableness": 0.6,
       "Neuroticism": 0.2
+    },
+    "ratings": {
+      "strength": 2,
+      "endurance": 2,
+      "agility": 2,
+      "speed": 2,
+      "flexibility": 2,
+      "coordination": 2,
+      "balance": 2,
+      "power": 2
+    },
+    "characteristics": {
+      "intelligence": 0.9,
+      "creativity": 0.7,
+      "EQ": 0.8,
+      "motivation": 0.6,
+      "confidence": 0.7,
+      "empathy": 0.8
     },
     "traits": [
       "Cerebral",
@@ -260,12 +444,35 @@
   {
     "order": "Transpersonal",
     "name": "Explorer",
+    "motto": "Go where no one has gone before",
+    "mission": "Represent the desire for adventure and discovering the unknown",
+    "color": "#A8CC67",
+    "planet": "Waterstone",
+    "thirdEye": "Teardrop",
     "scores": {
       "Openness": 0.9,
       "Conscientiousness": 0.4,
       "Extraversion": 0.8,
       "Agreeableness": 0.5,
       "Neuroticism": 0.4
+    },
+    "ratings": {
+      "strength": 3,
+      "endurance": 4,
+      "agility": 3,
+      "speed": 3,
+      "flexibility": 3,
+      "coordination": 3,
+      "balance": 3,
+      "power": 3
+    },
+    "characteristics": {
+      "intelligence": 0.8,
+      "creativity": 0.9,
+      "EQ": 0.6,
+      "motivation": 0.7,
+      "confidence": 0.8,
+      "empathy": 0.5
     },
     "traits": [
       "Autonomous",
@@ -293,12 +500,35 @@
   {
     "order": "Collective",
     "name": "Lover",
+    "motto": "Indulge your senses",
+    "mission": "Represent intimacy, passion, and sensuality",
+    "color": "#9F228F",
+    "planet": "Floatingstone",
+    "thirdEye": "Diamond",
     "scores": {
       "Openness": 0.6,
       "Conscientiousness": 0.5,
       "Extraversion": 0.7,
       "Agreeableness": 0.8,
       "Neuroticism": 0.4
+    },
+    "ratings": {
+      "strength": 2,
+      "endurance": 2,
+      "agility": 2,
+      "speed": 2,
+      "flexibility": 3,
+      "coordination": 3,
+      "balance": 3,
+      "power": 2
+    },
+    "characteristics": {
+      "intelligence": 0.8,
+      "creativity": 0.9,
+      "EQ": 0.6,
+      "motivation": 0.7,
+      "confidence": 0.8,
+      "empathy": 0.5
     },
     "traits": ["Passionate", "Sensual", "Dramatic", "Aesthetic", "Romantic"],
     "motivations": ["Intimacy", "Beauty", "Love", "Self-indulgence"],
@@ -320,12 +550,35 @@
   {
     "order": "Collective",
     "name": "Joker",
+    "motto": "Life is too short to be serious",
+    "mission": "Represent joy, humor, and spontaneity",
+    "color": "#ED2F3E",
+    "planet": "Floatingstone",
+    "thirdEye": "Diamond",
     "scores": {
       "Openness": 0.8,
       "Conscientiousness": 0.4,
       "Extraversion": 0.9,
       "Agreeableness": 0.3,
       "Neuroticism": 0.6
+    },
+    "ratings": {
+      "strength": 2,
+      "endurance": 3,
+      "agility": 3,
+      "speed": 3,
+      "flexibility": 3,
+      "coordination": 3,
+      "balance": 3,
+      "power": 2
+    },
+    "characteristics": {
+      "intelligence": 0.8,
+      "creativity": 0.9,
+      "EQ": 0.6,
+      "motivation": 0.7,
+      "confidence": 0.8,
+      "empathy": 0.5
     },
     "traits": [
       "Playful",
@@ -353,12 +606,35 @@
   {
     "order": "Collective",
     "name": "Everyman",
+    "motto": "Be the best version of yourself",
+    "mission": "Represents relatability, honesty, and authenticity",
+    "color": "#E70E7D",
+    "planet": "Floatingstone",
+    "thirdEye": "Diamond",
     "scores": {
       "Openness": 0.5,
       "Conscientiousness": 0.6,
       "Extraversion": 0.5,
       "Agreeableness": 0.7,
       "Neuroticism": 0.4
+    },
+    "ratings": {
+      "strength": 3,
+      "endurance": 3,
+      "agility": 3,
+      "speed": 3,
+      "flexibility": 3,
+      "coordination": 3,
+      "balance": 3,
+      "power": 3
+    },
+    "characteristics": {
+      "intelligence": 0.8,
+      "creativity": 0.9,
+      "EQ": 0.6,
+      "motivation": 0.7,
+      "confidence": 0.8,
+      "empathy": 0.5
     },
     "traits": [
       "Practical",

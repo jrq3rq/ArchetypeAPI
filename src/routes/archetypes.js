@@ -22,6 +22,15 @@ router.get("/filter", archetypeController.filter);
 // New route for filtering by trait
 router.get("/by-trait/:trait", archetypeController.getByTrait);
 
+// Route for getting archetypes by order
+router.get("/by-order/:order", archetypeController.getByOrder);
+
+// New route for filtering by planet
+router.get("/by-planet/:planet", archetypeController.getByPlanet);
+
+// New route for filtering by thirdEye
+router.get("/by-thirdEye/:thirdEye", archetypeController.getByThirdEye);
+
 // Route for filtering by motivation
 router.get("/by-motivation/:motivation", archetypeController.getByMotivation);
 
@@ -30,9 +39,6 @@ router.get("/by-behavior/:behavior", archetypeController.getByBehavior);
 
 // Route for filtering by interest
 router.get("/by-interest/:interest", archetypeController.getByInterest);
-
-// Route for getting archetypes by order
-router.get("/by-order/:order", archetypeController.getByOrder);
 
 // Paginated results
 router.get("/page/:page", archetypeController.paginate);

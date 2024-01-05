@@ -9,11 +9,17 @@ class Archetype {
     this.id = data.id || uuidv4(); // Generate UUID if not present
     this.timestamp = data.timestamp || new Date().toISOString(); // Adding a timestamp
     this.name = data.name; // Existing attribute
+    this.motto = data.motto; // Adds motto
+    this.color = data.color; // Adds color
+    this.planet = data.planet; // Adds planet
+    this.thirdEye = data.thirdEye; // Adds thirdEye
     this.scores = data.scores; // New attribute for Big Five scores
     this.traits = data.traits; // Existing attribute
     this.motivations = data.motivations; // Existing attribute
-    this.behaviors = data.behaviors; // Existing attribute
-    this.interests = data.interests; // Existing attribute
+    this.behaviors = data.behaviors; // Adds behaviors
+    this.interests = data.interests; // Adds interest
+    this.ratings = data.ratings; // Adds ratings
+    this.characteristics = data.characteristics; // Adds characteristics
   }
 }
 
@@ -33,6 +39,22 @@ class ArchetypeModel {
     const normalizedOrder = order.toLowerCase();
     return this.archetypes.filter(
       (archetype) => archetype.order.toLowerCase() === normalizedOrder
+    );
+  }
+
+  // Method to filter archetypes by planet
+  findByPlanet(planet) {
+    const normalizedPlanet = planet.toLowerCase();
+    return this.archetypes.filter(
+      (archetype) => archetype.planet.toLowerCase() === normalizedPlanet
+    );
+  }
+
+  // Method to filter archetypes by thirdEye
+  findByThirdEye(thirdEye) {
+    const normalizedThirdEye = thirdEye.toLowerCase();
+    return this.archetypes.filter(
+      (archetype) => archetype.thirdEye.toLowerCase() === normalizedThirdEye
     );
   }
 

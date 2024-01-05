@@ -1,12 +1,41 @@
 # Blueprint Archetype API Project Structure
 
 ```markdown
+Deployement API layout
+├── functions
+│ ├── config
+│ │ └── winston.js
+│ ├── controllers
+│ │ ├── bigFiveController.js
+│ │ └── archetypeController.js
+│ ├── data
+│ │ ├── TESTDATA.json
+│ │ ├── bigFiveData.json
+│ │ └── archetypes.json
+│ ├── middleware
+│ │ └── rateLimit.js
+│ ├── models
+│ │ ├── bigFiveModel.js
+│ │ └── archetypeModel.js
+│ ├── public
+| │ │ ├── swagger-ui
+| | │ │ └── index.html
+| │ │ ├── docs
+| | │ │ └── swagger.yaml
+│ ├── routes
+│ │ ├── archetypes.js
+│ │ └── bigFiveRoutes.js
+├── .eslintrc.js
+├── app.js
+├── index.js
+├── .gitignore
+├── package-lock.json
+└── package.json
+```
+
+```markdown
 api-project
 ├── functions
-│ ├── .eslintrc.js
-│ ├── .gitignore
-│ ├── index.js
-│ └── package.json
 ├── public
 │ ├── docs
 │ │ └── swagger.yaml

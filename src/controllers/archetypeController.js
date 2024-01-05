@@ -127,6 +127,42 @@ exports.getByInterest = (req, res) => {
   }
 };
 
+exports.getByPlanet = (req, res) => {
+  try {
+    const planet = req.params.planet;
+    const archetypes = ArchetypeModel.findByPlanet(planet);
+    if (archetypes.length === 0) {
+      return res
+        .status(404)
+        .json({ message: `No archetypes found for '${planet}'` });
+    }
+    res.json(archetypes);
+  } catch (error) {
+    res.status(500).json({
+      message: "An error occurred while retrieving archetypes by planet.",
+      error: error.message,
+    });
+  }
+};
+
+exports.getByThirdEye = (req, res) => {
+  try {
+    const thirdEye = req.params.thirdEye;
+    const archetypes = ArchetypeModel.findByThirdEye(thirdEye);
+    if (archetypes.length === 0) {
+      return res
+        .status(404)
+        .json({ message: `No archetypes found for '${thirdEye}'` });
+    }
+    res.json(archetypes);
+  } catch (error) {
+    res.status(500).json({
+      message: "An error occurred while retrieving archetypes by thirdEye.",
+      error: error.message,
+    });
+  }
+};
+
 // Search by name
 exports.search = (req, res) => {
   try {
