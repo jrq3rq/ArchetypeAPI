@@ -7,6 +7,8 @@ class BigFiveTrait {
   constructor(data) {
     this.trait = data.trait;
     this.description = data.description;
+    this.subheader = data.subheader;
+    this.subheaderDescription = data.subheaderDescription;
     this.questions = data.questions;
   }
 

@@ -3,6 +3,8 @@
     {
       "trait": "Openness",
       "description": "A measure of one's appreciation for art, emotion, adventure, unusual ideas, imagination, curiosity, and variety of experience.",
+      "subheader": "How It Relates to You:",
+      "subheaderDescription": "If you find yourself often curious about the world, eager to learn new things, and embracing unconventional ideas, this trait resonates with your innate desire to explore and create.",
       "questions": [
         {
           "text": "I have a rich vocabulary.",
@@ -25,6 +27,8 @@
     {
       "trait": "Conscientiousness",
       "description": "A measure of one's reliability, organization, punctuality, and ability to regulate and control impulses.",
+      "subheader": "How It Relates to You:",
+      "subheaderDescription": "If you're someone who values order, likes to set goals, and takes pride in being reliable, this trait captures your ability to navigate life with a clear sense of direction and purpose.",
       "questions": [
         {
           "text": "I am always prepared.",
@@ -47,6 +51,8 @@
     {
       "trait": "Extraversion",
       "description": "A measure of one's energy, assertiveness, sociability, and the tendency to seek stimulation in the company of others.",
+      "subheader": "How It Relates to You:",
+      "subheaderDescription": "If you feel energized by being around people, enjoy engaging in conversations, and often find yourself in the role of a motivator, this trait reflects your natural inclination towards making connections and inspiring those around you.",
       "questions": [
         {
           "text": "I am the life of the party.",
@@ -69,6 +75,8 @@
     {
       "trait": "Agreeableness",
       "description": "A measure of one's tendency to be compassionate and cooperative rather than suspicious and antagonistic towards others.",
+      "subheader": "How It Relates to You:",
+      "subheaderDescription": " If you often find yourself helping others, striving for peace in your relationships, and showing understanding, this trait highlights your innate capacity for empathy and your ability to foster positive interactions.",
       "questions": [
         {
           "text": "I am interested in people.",
@@ -91,6 +99,8 @@
     {
       "trait": "Neuroticism",
       "description": "A measure of one's tendency to experience emotional instability, anxiety, moodiness, irritability, and sadness.",
+      "subheader": "How It Relates to You:",
+      "subheaderDescription": " If you are someone who feels emotions deeply, whether it's joy or stress, and seeks to understand these feelings, this trait reflects your journey towards emotional awareness and resilience.",
       "questions": [
         {
           "text": "I get stressed out easily.",
