@@ -1,5 +1,3 @@
-# Blueprint Archetype API Project Structure
-
 ```css
                   \       |        /
                    \      |       /
@@ -9,6 +7,8 @@
                   /        |        \
 [Character Data] [Template Provision] [Personality Integration]
 ```
+
+# Blueprint Archetype API Project Structure
 
 ```markdown
 Deployement API layout
