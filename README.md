@@ -1,3 +1,13 @@
+```css
+                  \       |        /
+                   \      |       /
+                    \     |      /
+                    [ArchetypeAPI]
+                   /       |       \
+                  /        |        \
+[Character Data] [Template Provision] [Personality Integration]
+```
+
 # Blueprint Archetype API Project Structure
 
 ```markdown
