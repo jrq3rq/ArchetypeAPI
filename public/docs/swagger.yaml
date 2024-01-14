@@ -6,50 +6,39 @@ info:
 servers:
   - url: "http://localhost:3000"
     description: Local development server
-  - url: "https://dev.example.com/v1"
-    description: Development server
-  - url: "https://api.example.com/v1"
+  - url: "https://us-central1-archetype-builder-api.cloudfunctions.net/api/"
     description: Production server
+
 paths:
   /archetypes:
     get:
       summary: Get all archetypes
       tags:
         - Archetypes
-      parameters:
-        - in: query
-          name: name
-          schema:
-            type: string
-          required: false
-          description: Filter by archetype name
       responses:
         "200":
-          description: A list of archetypes
+          description: A list of all archetypes
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: "#/components/schemas/Archetype"
-        "400":
-          $ref: "#/components/responses/BadRequest"
-        "401":
-          $ref: "#/components/responses/Unauthorized"
         "500":
           $ref: "#/components/responses/ServerError"
-  "/archetypes/{id}":
+
+  /archetypes/{name}:
     get:
-      summary: Get a single archetype by ID
+      summary: Get a single archetype by name
       tags:
         - Archetypes
       parameters:
         - in: path
-          name: id
+          name: name
           required: true
           schema:
             type: string
-          description: Unique identifier of the archetype
+          description: Name of the archetype
       responses:
         "200":
           description: Detailed information about an archetype
@@ -57,151 +46,242 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/Archetype"
-        "401":
-          $ref: "#/components/responses/Unauthorized"
         "404":
           $ref: "#/components/responses/NotFound"
         "500":
           $ref: "#/components/responses/ServerError"
-  /bigfive:
+  /archetypes/by-trait/{trait}:
     get:
-      summary: Get all Big Five traits and their questions
+      summary: Get archetypes by trait
       tags:
-        - BigFive
-      responses:
-        "200":
-          description: A list of Big Five traits and questions
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: "#/components/schemas/BigFiveTrait"
-  /bigfive/{trait}:
-    get:
-      summary: Get questions for a specific Big Five trait
-      tags:
-        - BigFive
+        - Archetypes
       parameters:
         - in: path
           name: trait
           required: true
           schema:
             type: string
-          description: Name of the Big Five trait
+          description: The trait to filter archetypes by
       responses:
         "200":
-          description: List of questions for the specified Big Five trait
+          description: A list of archetypes with the specified trait
           content:
             application/json:
               schema:
                 type: array
                 items:
-                  $ref: "#/components/schemas/Question"
+                  $ref: "#/components/schemas/Archetype"
         "404":
           $ref: "#/components/responses/NotFound"
+        "500":
+          $ref: "#/components/responses/ServerError"
+
+  /archetypes/by-order/{order}:
+    get:
+      summary: Get archetypes by order
+      tags:
+        - Archetypes
+      parameters:
+        - in: path
+          name: order
+          required: true
+          schema:
+            type: string
+          description: The order to filter archetypes by
+      responses:
+        "200":
+          description: A list of archetypes with the specified trait
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Archetype"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "500":
+          $ref: "#/components/responses/ServerError"
+
+  /archetypes/by-thirdEye/{thirdEye}:
+    get:
+      summary: Get archetypes by thirdEye gemstone
+      tags:
+        - Archetypes
+      parameters:
+        - in: path
+          name: thirdEye
+          required: true
+          schema:
+            type: string
+          description: The order to filter archetypes by
+      responses:
+        "200":
+          description: A list of archetypes with the specified trait
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Archetype"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "500":
+          $ref: "#/components/responses/ServerError"
+
+  /archetypes/by-motivation/{motivation}:
+    get:
+      summary: Get archetypes by motivation
+      tags:
+        - Archetypes
+      parameters:
+        - in: path
+          name: motivation
+          required: true
+          schema:
+            type: string
+          description: Filter archetypes by motivation
+      responses:
+        "200":
+          description: A list of archetypes with the specified motivation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Archetype"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "500":
+          $ref: "#/components/responses/ServerError"
+
+  /archetypes/by-behavior/{behavior}:
+    get:
+      summary: Get archetypes by behavior
+      tags:
+        - Archetypes
+      parameters:
+        - in: path
+          name: behavior
+          required: true
+          schema:
+            type: string
+          description: To filter archetypes by behavior
+      responses:
+        "200":
+          description: A list of archetypes with the specified behavior
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Archetype"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "500":
+          $ref: "#/components/responses/ServerError"
+
+  /archetypes/by-interest/{interest}:
+    get:
+      summary: Get archetypes by interest
+      tags:
+        - Archetypes
+      parameters:
+        - in: path
+          name: interest
+          required: true
+          schema:
+            type: string
+          description: The interest to filter archetypes by
+      responses:
+        "200":
+          description: A list of archetypes with the specified interest
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Archetype"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "500":
+          $ref: "#/components/responses/ServerError"
+
 components:
-schemas:
-  Archetype:
-    type: object
-    properties:
-      name:
-        type: string
-      scores:
-        $ref: "#/components/schemas/ArchetypeScores"
-      traits:
-        type: array
-        items:
+  schemas:
+    Archetype:
+      type: object
+      properties:
+        order:
           type: string
-      motivations:
-        type: array
-        items:
+        id:
           type: string
-      behaviors:
-        type: array
-        items:
+        timestamp:
           type: string
-      interests:
-        type: array
-        items:
+          format: date-time
+        name:
           type: string
-  ArchetypeScores:
-    type: object
-    properties:
-      Openness:
-        type: number
-        format: double
-      Conscientiousness:
-        type: number
-        format: double
-      Extraversion:
-        type: number
-        format: double
-      Agreeableness:
-        type: number
-        format: double
-      Neuroticism:
-        type: number
-        format: double
-  Error:
-    type: object
-    properties:
-      code:
-        type: integer
-        format: int32
-      message:
-        type: string
-  BigFiveTrait:
-    type: object
-    properties:
-      trait:
-        type: string
-      description:
-        type: string
-      questions:
-        type: array
-        items:
-          $ref: "#/components/schemas/Question"
-  Question:
-    type: object
-    properties:
-      text:
-        type: string
-      isReverseScored:
-        type: boolean
-        description: Indicates if the question is reverse scored
+        motto:
+          type: string
+        color:
+          type: string
+        planet:
+          type: string
+        thirdEye:
+          type: string
+        scores:
+          type: object
+          properties:
+            Openness:
+              type: number
+            Conscientiousness:
+              type: number
+            Extraversion:
+              type: number
+            Agreeableness:
+              type: number
+            Neuroticism:
+              type: number
+        traits:
+          type: array
+          items:
+            type: string
+        motivations:
+          type: array
+          items:
+            type: string
+        behaviors:
+          type: array
+          items:
+            type: string
+        interests:
+          type: array
+          items:
+            type: string
+        ratings:
+          type: object
+          additionalProperties:
+            type: integer
+        characteristics:
+          type: object
+          additionalProperties:
+            type: number
+
   responses:
-    BadRequest:
-    description: Invalid request parameters
-    content:
-      application/json:
-        schema:
-          $ref: "#/components/schemas/Error"
-  Unauthorized:
-    description: Authentication required
-    content:
-      application/json:
-        schema:
-          $ref: "#/components/schemas/Error"
-  NotFound:
-    description: Archetype not found
-    content:
-      application/json:
-        schema:
-          $ref: "#/components/schemas/Error"
-  ServerError:
-    description: Internal Server Error
-    content:
-      application/json:
-        schema:
-          $ref: "#/components/schemas/Error"
-  securitySchemes:
-    ApiKeyAuth:
-    type: apiKey
-    in: header
-    name: X-API-KEY
-security:
-  - ApiKeyAuth: []
-tags:
-  - name: Archetypes
-    description: Operations related to archetypes
+    NotFound:
+      description: The specified resource was not found
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              message:
+                type: string
+    ServerError:
+      description: Internal Server Error
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              message:
+                type: string
