@@ -13,7 +13,7 @@ paths:
   /archetypes:
     get:
       summary: Get all archetypes
-      operationId: getAll
+      operationId: getAllArchetypes
       tags:
         - Archetypes
       responses:
@@ -30,8 +30,8 @@ paths:
 
   /archetypes/{name}:
     get:
-      summary: Get a single archetype by nam
-      operationId: getByName
+      summary: Get a single archetype by name
+      operationId: getArchetypeByName
       tags:
         - Archetypes
       parameters:
@@ -55,7 +55,7 @@ paths:
   /archetypes/by-trait/{trait}:
     get:
       summary: Get archetypes by trait
-      operationId: getByTrait
+      operationId: getArchetypesByTrait
       tags:
         - Archetypes
       parameters:
@@ -82,7 +82,7 @@ paths:
   /archetypes/by-order/{order}:
     get:
       summary: Get archetypes by order
-      operationId: getByOrder
+      operationId: getArchetypesByOrder
       tags:
         - Archetypes
       parameters:
@@ -109,7 +109,7 @@ paths:
   /archetypes/by-thirdEye/{thirdEye}:
     get:
       summary: Get archetypes by thirdEye gemstone
-      operationId: getByThirdEye
+      operationId: getArchetypesByThirdEye
       tags:
         - Archetypes
       parameters:
@@ -136,7 +136,7 @@ paths:
   /archetypes/by-motivation/{motivation}:
     get:
       summary: Get archetypes by motivation
-      operationId: getByMotivation
+      operationId: getArchetypesByMotivation
       tags:
         - Archetypes
       parameters:
@@ -163,7 +163,7 @@ paths:
   /archetypes/by-behavior/{behavior}:
     get:
       summary: Get archetypes by behavior
-      operationId: getByBehavior
+      operationId: getArchetypesByBehavior
       tags:
         - Archetypes
       parameters:
@@ -190,7 +190,7 @@ paths:
   /archetypes/by-interest/{interest}:
     get:
       summary: Get archetypes by interest
-      operationId: getByInterest
+      operationId: getArchetypesByInterest
       tags:
         - Archetypes
       parameters:
