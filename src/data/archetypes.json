@@ -3,7 +3,7 @@
     "order": "Ego",
     "name": "Rebel",
     "motto": "follow your own rules",
-    "mission": " Represent rebellion, revolution, and breaking the rules",
+    "mission": "Represent rebellion, revolution, and breaking the rules",
     "color": "#F0822A",
     "planet": "Moonstone",
     "thirdEye": "Hexagon",
@@ -53,6 +53,37 @@
       "Competing in extreme/underground sports.",
       "Working independently with few constraints.",
       "Pushing boundaries of what's acceptable."
+    ],
+    "historicalExamples": [
+      {
+        "name": "Martin Luther King Jr.",
+        "description": "Civil rights leader who challenged racial segregation through nonviolent resistance."
+      },
+      {
+        "name": "Emmeline Pankhurst",
+        "description": "British political activist and leader of the suffragette movement."
+      },
+      {
+        "name": "Che Guevara",
+        "description": "Marxist revolutionary and guerrilla leader in Latin America."
+      }
+    ],
+    "mythologicalReferences": [
+      {
+        "name": "Prometheus",
+        "description": "Titan who defied the gods by stealing fire and giving it to humanity."
+      },
+      {
+        "name": "Loki",
+        "description": "Norse trickster god known for causing chaos and challenging the established order."
+      }
+    ],
+    "practicalApplications": [
+      "Social activism and grassroots movements",
+      "Innovative problem-solving in business or technology",
+      "Creative arts that challenge societal norms",
+      "Entrepreneurship and disruptive business models",
+      "Political reform and policy change advocacy"
     ]
   },
   {
@@ -109,6 +140,37 @@
       "Consultancy to provide expert advice",
       "Entrepreneurial ventures and startups",
       "Politics, activism, social justice causes"
+    ],
+    "historicalExamples": [
+      {
+        "name": "Steve Jobs",
+        "description": "Co-founder of Apple, known for his visionary leadership and transformative products."
+      },
+      {
+        "name": "Marie Curie",
+        "description": "Physicist and chemist who conducted pioneering research on radioactivity."
+      },
+      {
+        "name": "Nikola Tesla",
+        "description": "Inventor and engineer who contributed to the design of the modern alternating current electricity supply system."
+      }
+    ],
+    "mythologicalReferences": [
+      {
+        "name": "Merlin",
+        "description": "Legendary wizard from Arthurian legend, known for his magical abilities and wise counsel."
+      },
+      {
+        "name": "Thoth",
+        "description": "Egyptian god of wisdom, writing, and magic, often depicted as the patron of scribes and magicians."
+      }
+    ],
+    "practicalApplications": [
+      "Scientific research and technological innovation",
+      "Strategic business consulting and problem-solving",
+      "Educational reform and innovative teaching methods",
+      "Personal development and life coaching",
+      "Creative arts and entertainment industry"
     ]
   },
   {
@@ -165,6 +227,37 @@
       "Competing in sports/contests",
       "Protecting and advocating for others",
       "Overcoming adversity and obstacles"
+    ],
+    "historicalExamples": [
+      {
+        "name": "Nelson Mandela",
+        "description": "Anti-apartheid revolutionary who became President of South Africa and worked towards reconciliation."
+      },
+      {
+        "name": "Joan of Arc",
+        "description": "French heroine who led the French army to several important victories during the Hundred Years' War."
+      },
+      {
+        "name": "Mahatma Gandhi",
+        "description": "Indian independence leader who employed nonviolent civil disobedience to lead India to independence."
+      }
+    ],
+    "mythologicalReferences": [
+      {
+        "name": "Hercules",
+        "description": "Greek demigod known for his strength and the completion of the Twelve Labors."
+      },
+      {
+        "name": "Beowulf",
+        "description": "Legendary Geatish hero who came to the aid of the Danish king by slaying the monster Grendel."
+      }
+    ],
+    "practicalApplications": [
+      "Leadership roles in business, politics, or community organizations",
+      "Military service or law enforcement",
+      "Emergency response and disaster relief work",
+      "Competitive sports and athletics",
+      "Motivational speaking and personal development coaching"
     ]
   },
   {
@@ -221,6 +314,37 @@
       "Designing - graphics, products, architecture, etc.",
       "Inventing solutions and pushing boundaries",
       "Photography, decor, fashion design"
+    ],
+    "historicalExamples": [
+      {
+        "name": "Leonardo da Vinci",
+        "description": "Italian polymath of the Renaissance, known for his art, inventions, and scientific studies."
+      },
+      {
+        "name": "Frida Kahlo",
+        "description": "Mexican artist known for her many portraits, self-portraits, and works inspired by nature and Mexican culture."
+      },
+      {
+        "name": "Wolfgang Amadeus Mozart",
+        "description": "Prolific and influential composer of the Classical period."
+      }
+    ],
+    "mythologicalReferences": [
+      {
+        "name": "Hephaestus",
+        "description": "Greek god of craftsmanship, fire, and metalworking, known for creating magnificent items for gods and heroes."
+      },
+      {
+        "name": "Saraswati",
+        "description": "Hindu goddess of knowledge, music, art, wisdom, and learning."
+      }
+    ],
+    "practicalApplications": [
+      "Artistic professions (visual arts, music, literature)",
+      "Product design and innovation",
+      "Advertising and marketing creative roles",
+      "Architectural and urban planning",
+      "Scientific research and invention"
     ]
   },
   {
@@ -277,6 +401,37 @@
       "Financial planning and asset management.",
       "Overseeing processes, quality control, auditing.",
       "Setting rules, policies, standards, procedures."
+    ],
+    "historicalExamples": [
+      {
+        "name": "Queen Elizabeth I",
+        "description": "Powerful monarch who ruled England during a period of great economic and cultural growth."
+      },
+      {
+        "name": "Julius Caesar",
+        "description": "Roman statesman and military general who played a critical role in the transformation of the Roman Republic into the Roman Empire."
+      },
+      {
+        "name": "Catherine the Great",
+        "description": "Empress of Russia who presided over a golden age of Russian expansion, modernization, and reform."
+      }
+    ],
+    "mythologicalReferences": [
+      {
+        "name": "Zeus",
+        "description": "King of the Greek gods, ruler of Mount Olympus and the sky and thunder."
+      },
+      {
+        "name": "Odin",
+        "description": "Chief god in Norse mythology, associated with wisdom, healing, death, royalty, and poetry."
+      }
+    ],
+    "practicalApplications": [
+      "Corporate leadership and executive management",
+      "Political office and public administration",
+      "Judicial roles and law enforcement leadership",
+      "Military command and strategy",
+      "Large-scale project management and coordination"
     ]
   },
   {
@@ -333,6 +488,37 @@
       "Providing health care or social services",
       "Creating a loving home and family life",
       "Connecting people to helpful resources"
+    ],
+    "historicalExamples": [
+      {
+        "name": "Florence Nightingale",
+        "description": "Founder of modern nursing, known for her pioneering work in sanitation and medical care during the Crimean War."
+      },
+      {
+        "name": "Mother Teresa",
+        "description": "Roman Catholic nun who dedicated her life to serving the poor and sick in Calcutta, India."
+      },
+      {
+        "name": "Jane Addams",
+        "description": "Social reformer, suffragist, and founder of Hull House, one of America's most famous settlement houses."
+      }
+    ],
+    "mythologicalReferences": [
+      {
+        "name": "Demeter",
+        "description": "Greek goddess of the harvest, fertility, and the cycle of life and death, known for her nurturing nature."
+      },
+      {
+        "name": "Kuan Yin",
+        "description": "East Asian bodhisattva of compassion, venerated for her mercy and kindness."
+      }
+    ],
+    "practicalApplications": [
+      "Healthcare professions (nursing, therapy, counseling)",
+      "Social work and community service",
+      "Education and childcare",
+      "Nonprofit organizations and charities",
+      "Hospice and elder care services"
     ]
   },
   {
@@ -383,6 +569,37 @@
       "Working in roles that help people directly",
       "Organizing celebrations and social events",
       "Faith-based activities and organizations"
+    ],
+    "historicalExamples": [
+      {
+        "name": "Anne Frank",
+        "description": "Jewish girl whose diary, written during the Nazi occupation of the Netherlands, became a powerful testament to human resilience and optimism."
+      },
+      {
+        "name": "Fred Rogers",
+        "description": "American television personality known for his children's show that promoted kindness, acceptance, and simple joys of life."
+      },
+      {
+        "name": "Pollyanna Whittier",
+        "description": "Fictional character from Eleanor H. Porter's novel, known for her optimism and 'glad game', which became a cultural touchstone for positivity."
+      }
+    ],
+    "mythologicalReferences": [
+      {
+        "name": "Psyche",
+        "description": "In Greek mythology, a mortal woman whose innocence and beauty captivated Eros, the god of love."
+      },
+      {
+        "name": "Baldur",
+        "description": "Norse god associated with light, joy, purity, and the summer sun."
+      }
+    ],
+    "practicalApplications": [
+      "Early childhood education and care",
+      "Creating positive, uplifting content (books, shows, music)",
+      "Community organizing and event planning",
+      "Faith-based leadership and counseling",
+      "Wellness and holistic health practices"
     ]
   },
   {
@@ -439,6 +656,37 @@
       "Strategizing, theorizing, intellectually debating",
       "Writing, blogging, journalism",
       "Consulting, advising, think tanks"
+    ],
+    "historicalExamples": [
+      {
+        "name": "Socrates",
+        "description": "Ancient Greek philosopher credited as one of the founders of Western philosophy."
+      },
+      {
+        "name": "Albert Einstein",
+        "description": "Theoretical physicist who developed the theory of relativity, one of the two pillars of modern physics."
+      },
+      {
+        "name": "Maya Angelou",
+        "description": "American poet, memoirist, and civil rights activist known for her wisdom and insightful writings."
+      }
+    ],
+    "mythologicalReferences": [
+      {
+        "name": "Athena",
+        "description": "Greek goddess of wisdom, courage, inspiration, civilization, law and justice, strategic warfare, mathematics, strength, strategy, the arts, crafts, and skill."
+      },
+      {
+        "name": "Ọrunmila",
+        "description": "Yoruba god of wisdom, knowledge, and divination."
+      }
+    ],
+    "practicalApplications": [
+      "Academic research and teaching",
+      "Scientific discovery and innovation",
+      "Philosophy and ethics consultation",
+      "Policy analysis and think tank work",
+      "Writing and journalism on complex topics"
     ]
   },
   {
@@ -495,6 +743,37 @@
       "Research, learning and intellectual pursuits",
       "Living an unconventional lifestyle",
       "Interacting with nature and the outdoors"
+    ],
+    "historicalExamples": [
+      {
+        "name": "Marco Polo",
+        "description": "Venetian merchant, explorer, and writer who traveled through Asia along the Silk Road between 1271 and 1295."
+      },
+      {
+        "name": "Amelia Earhart",
+        "description": "American aviation pioneer and author, the first female aviator to fly solo across the Atlantic Ocean."
+      },
+      {
+        "name": "Neil Armstrong",
+        "description": "American astronaut and aeronautical engineer who became the first person to walk on the Moon."
+      }
+    ],
+    "mythologicalReferences": [
+      {
+        "name": "Maui",
+        "description": "Polynesian demigod known for his exploits and adventures, including fishing up islands from the sea."
+      },
+      {
+        "name": "Hermes",
+        "description": "Greek god of travel, messengers, and boundaries, known for his swift movement and exploration."
+      }
+    ],
+    "practicalApplications": [
+      "Travel writing and photography",
+      "Scientific expeditions and field research",
+      "Adventure tourism and extreme sports",
+      "Cultural anthropology and ethnography",
+      "Environmental conservation and ecology"
     ]
   },
   {
@@ -545,6 +824,37 @@
       "Lavish entertaining and cuisine",
       "Fashion and glamour",
       "Romance, relationships, sexuality"
+    ],
+    "historicalExamples": [
+      {
+        "name": "Cleopatra",
+        "description": "Last active ruler of the Ptolemaic Kingdom of Egypt, known for her charisma and romantic liaisons with Julius Caesar and Mark Antony."
+      },
+      {
+        "name": "Casanova",
+        "description": "Italian adventurer and author who became famous for his elaborate affairs with women."
+      },
+      {
+        "name": "Pablo Neruda",
+        "description": "Chilean poet-diplomat and politician known for his surrealist poems and passionate love sonnets."
+      }
+    ],
+    "mythologicalReferences": [
+      {
+        "name": "Aphrodite",
+        "description": "Greek goddess of love, beauty, pleasure, and procreation."
+      },
+      {
+        "name": "Eros",
+        "description": "Greek god of love and sex, often depicted as a young winged boy."
+      }
+    ],
+    "practicalApplications": [
+      "Fine arts and creative expression",
+      "Relationship counseling and coaching",
+      "Luxury goods and services industry",
+      "Fashion design and beauty industry",
+      "Hospitality and entertainment sectors"
     ]
   },
   {
@@ -601,6 +911,37 @@
       "Puzzles, wordplay, abstract thinking",
       "Testing boundaries and breaking taboos",
       "Finding inconsistencies in conventional thinking"
+    ],
+    "historicalExamples": [
+      {
+        "name": "Charlie Chaplin",
+        "description": "English comic actor, filmmaker, and composer who rose to fame in the era of silent film, known for his screen persona 'The Tramp'."
+      },
+      {
+        "name": "Oscar Wilde",
+        "description": "Irish poet and playwright known for his wit, flamboyance, and infamous imprisonment for homosexuality."
+      },
+      {
+        "name": "Robin Williams",
+        "description": "American actor and comedian known for his rapid-fire improvisation and wide range of memorable character voices."
+      }
+    ],
+    "mythologicalReferences": [
+      {
+        "name": "Anansi",
+        "description": "West African and Caribbean trickster god, often taking the form of a spider, known for his cunning and trickery."
+      },
+      {
+        "name": "Puck",
+        "description": "Mischievous nature spirit in English folklore, also known as Robin Goodfellow, featured in Shakespeare's 'A Midsummer Night's Dream'."
+      }
+    ],
+    "practicalApplications": [
+      "Stand-up comedy and comedic writing",
+      "Advertising and marketing (using humor)",
+      "Education (making learning fun and memorable)",
+      "Therapy and counseling (using humor as a coping mechanism)",
+      "Political satire and social commentary"
     ]
   },
   {
@@ -657,6 +998,37 @@
       "Working steady, reliable jobs",
       "Participating in traditions and institutions",
       "Living a modest, down-to-earth lifestyle"
+    ],
+    "historicalExamples": [
+      {
+        "name": "Norman Rockwell",
+        "description": "American painter and illustrator known for his depictions of everyday American life."
+      },
+      {
+        "name": "Rosa Parks",
+        "description": "American activist in the civil rights movement, known for her pivotal role in the Montgomery bus boycott."
+      },
+      {
+        "name": "Jimmy Stewart",
+        "description": "American actor known for his distinctive drawl and down-to-earth persona, often portraying everyday heroes."
+      }
+    ],
+    "mythologicalReferences": [
+      {
+        "name": "John Henry",
+        "description": "African American folk hero, celebrated as a symbol of the working class and the dignity of manual labor."
+      },
+      {
+        "name": "Sita",
+        "description": "In Hindu mythology, the consort of Rama, known for her dedication, self-sacrifice and purity."
+      }
+    ],
+    "practicalApplications": [
+      "Community organizing and local politics",
+      "Customer service and public relations",
+      "Teaching and mentoring",
+      "Skilled trades and craftmanship",
+      "Family counseling and support services"
     ]
   }
 ]

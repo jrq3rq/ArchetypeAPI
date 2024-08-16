@@ -2,13 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Swagger UI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Archetype API Documentation</title>
     <link
       rel="stylesheet"
       type="text/css"
       href="https://cdn.jsdelivr.net/npm/swagger-ui-dist@latest/swagger-ui.css"
     />
-    <!-- <link rel="icon" type="image/png" href="./assets/logo.png" sizes="32x32" /> -->
+    <!-- If you have a favicon, uncomment the next line and update the path -->
+    <!-- <link rel="icon" type="image/png" href="./assets/favicon.png" sizes="32x32" /> -->
     <style>
       html {
         box-sizing: border-box;
@@ -35,14 +37,15 @@
     <script>
       window.onload = function () {
         const ui = SwaggerUIBundle({
-          url: "/public/docs/swagger.yaml",
+          url: "/public/docs/swagger.yaml", // Make sure this path is correct
           dom_id: "#swagger-ui",
           deepLinking: true,
           presets: [SwaggerUIBundle.presets.apis, SwaggerUIStandalonePreset],
           plugins: [SwaggerUIBundle.plugins.DownloadUrl],
           layout: "StandaloneLayout",
+          defaultModelsExpandDepth: -1, // Collapse the models by default
+          displayRequestDuration: true, // Show the request duration
         });
-        // End Swagger UI call region
         window.ui = ui;
       };
     </script>

@@ -5,21 +5,48 @@ const { v4: uuidv4 } = require("uuid");
 
 class Archetype {
   constructor(data) {
-    this.order = data.order; // Existing attribute
-    this.id = data.id || uuidv4(); // Generate UUID if not present
-    this.timestamp = data.timestamp || new Date().toISOString(); // Adding a timestamp
-    this.name = data.name; // Existing attribute
-    this.motto = data.motto; // Adds motto
-    this.color = data.color; // Adds color
-    this.planet = data.planet; // Adds planet
-    this.thirdEye = data.thirdEye; // Adds thirdEye
-    this.scores = data.scores; // New attribute for Big Five scores
-    this.traits = data.traits; // Existing attribute
-    this.motivations = data.motivations; // Existing attribute
-    this.behaviors = data.behaviors; // Adds behaviors
-    this.interests = data.interests; // Adds interest
-    this.ratings = data.ratings; // Adds ratings
-    this.characteristics = data.characteristics; // Adds characteristics
+    this.order = data.order;
+    this.id = data.id || uuidv4();
+    this.timestamp = data.timestamp || new Date().toISOString();
+    this.name = data.name;
+    this.motto = data.motto;
+    this.mission = data.mission;
+    this.color = data.color;
+    this.planet = data.planet;
+    this.thirdEye = data.thirdEye;
+    this.scores = data.scores;
+    this.traits = data.traits;
+    this.motivations = data.motivations;
+    this.behaviors = data.behaviors;
+    this.interests = data.interests;
+    this.historicalExamples = data.historicalExamples;
+    this.mythologicalReferences = data.mythologicalReferences;
+    this.practicalApplications = data.practicalApplications;
+    this.characteristics = data.characteristics;
+    this.ratings = data.ratings;
+  }
+  toJSON() {
+    return {
+      order: this.order,
+      id: this.id,
+      timestamp: this.timestamp,
+      name: this.name,
+      motto: this.motto,
+      mission: this.mission,
+      color: this.color,
+      planet: this.planet,
+      thirdEye: this.thirdEye,
+      scores: this.scores,
+      traits: this.traits,
+      motivations: this.motivations,
+      behaviors: this.behaviors,
+      interests: this.interests,
+      historicalExamples: this.historicalExamples,
+      mythologicalReferences: this.mythologicalReferences,
+      practicalApplications: this.practicalApplications,
+      characteristics: this.characteristics,
+      ratings: this.ratings,
+    };
   }
 }
 
@@ -93,6 +120,27 @@ class ArchetypeModel {
   // Method to filter archetypes by interest
   findByInterest(interest) {
     return this._filterByProperty("interests", interest);
+  }
+
+  getHistoricalExamples(name) {
+    const archetype = this.archetypes.find(
+      (a) => a.name.toLowerCase() === name.toLowerCase()
+    );
+    return archetype ? archetype.historicalExamples : [];
+  }
+
+  getMythologicalReferences(name) {
+    const archetype = this.archetypes.find(
+      (a) => a.name.toLowerCase() === name.toLowerCase()
+    );
+    return archetype ? archetype.mythologicalReferences : [];
+  }
+
+  getPracticalApplications(name) {
+    const archetype = this.archetypes.find(
+      (a) => a.name.toLowerCase() === name.toLowerCase()
+    );
+    return archetype ? archetype.practicalApplications : [];
   }
 
   // Helper method to reduce redundancy

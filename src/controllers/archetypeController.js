@@ -163,13 +163,71 @@ exports.getByThirdEye = (req, res) => {
   }
 };
 
-// Search by name
+// Get historical examples for an archetype
+exports.getHistoricalExamples = (req, res) => {
+  try {
+    const { name } = req.params;
+    const examples = ArchetypeModel.getHistoricalExamples(name);
+    if (!examples || examples.length === 0) {
+      return res
+        .status(404)
+        .json({ message: "No historical examples found for this archetype" });
+    }
+    res.json(examples);
+  } catch (error) {
+    res.status(500).json({
+      message: "An error occurred while retrieving historical examples.",
+      error: error.message,
+    });
+  }
+};
+
+// Get mythological references for an archetype
+exports.getMythologicalReferences = (req, res) => {
+  try {
+    const { name } = req.params;
+    const references = ArchetypeModel.getMythologicalReferences(name);
+    if (!references || references.length === 0) {
+      return res.status(404).json({
+        message: "No mythological references found for this archetype",
+      });
+    }
+    res.json(references);
+  } catch (error) {
+    res.status(500).json({
+      message: "An error occurred while retrieving mythological references.",
+      error: error.message,
+    });
+  }
+};
+
+// Get practical applications for an archetype
+exports.getPracticalApplications = (req, res) => {
+  try {
+    const { name } = req.params;
+    const applications = ArchetypeModel.getPracticalApplications(name);
+    if (!applications || applications.length === 0) {
+      return res.status(404).json({
+        message: "No practical applications found for this archetype",
+      });
+    }
+    res.json(applications);
+  } catch (error) {
+    res.status(500).json({
+      message: "An error occurred while retrieving practical applications.",
+      error: error.message,
+    });
+  }
+};
+
+// Update these existing methods to use ArchetypeModel instead of Archetype:
+
 exports.search = (req, res) => {
   try {
     const name = req.query.name;
     if (!name) throw new Error("No name query provided");
 
-    const filtered = Archetype.searchByName(name);
+    const filtered = ArchetypeModel.searchByName(name);
     if (filtered.length === 0) {
       return res
         .status(404)
@@ -185,10 +243,9 @@ exports.search = (req, res) => {
   }
 };
 
-// Get random archetype
 exports.getRandom = (req, res) => {
   try {
-    const archetypes = Archetype.findAll();
+    const archetypes = ArchetypeModel.findAll();
     if (archetypes.length === 0) throw new Error("No archetypes available");
 
     const randomIndex = Math.floor(Math.random() * archetypes.length);
@@ -201,13 +258,12 @@ exports.getRandom = (req, res) => {
   }
 };
 
-// Filter archetypes by trait
 exports.filter = (req, res) => {
   try {
     const trait = req.query.trait;
     if (!trait) throw new Error("No trait query provided");
 
-    const filtered = Archetype.filterByTrait(trait);
+    const filtered = ArchetypeModel.filterByTrait(trait);
     if (filtered.length === 0) {
       return res
         .status(404)
@@ -223,7 +279,6 @@ exports.filter = (req, res) => {
   }
 };
 
-// Paginate archetypes
 exports.paginate = (req, res) => {
   try {
     const page = parseInt(req.query.page, 10);
@@ -233,7 +288,7 @@ exports.paginate = (req, res) => {
     if (isNaN(pageSize) || pageSize <= 0)
       throw new Error("Page size is invalid");
 
-    const archetypes = Archetype.findAll();
+    const archetypes = ArchetypeModel.findAll();
     const totalPages = Math.ceil(archetypes.length / pageSize);
 
     if (page > totalPages) {
