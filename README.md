@@ -98,6 +98,10 @@ api-project
 └── .firebaserc
 ```
 
+```bash
+firebase deploy --only functions
+```
+
 # SWOT Analysis: ArchetypeAPI
 
 ## Project/Product Overview
