@@ -43,6 +43,10 @@ router.get("/by-interest/:interest", archetypeController.getByInterest);
 // Paginated results
 router.get("/page/:page", archetypeController.paginate);
 
+router.get("/:name/history", archetypeController.getHistoricalExamples);
+router.get("/:name/mythology", archetypeController.getMythologicalReferences);
+router.get("/:name/applications", archetypeController.getPracticalApplications);
+
 // Invalid routes
 router.use((req, res, next) => {
   res.status(404).json({ error: "Not found" });
