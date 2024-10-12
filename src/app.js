@@ -2,10 +2,9 @@ const express = require("express");
 const helmet = require("helmet");
 const compression = require("compression");
 const morgan = require("morgan");
-const dotenv = require("dotenv").config();
 const cors = require("cors");
 const bodyParser = require("body-parser");
-const path = require("path"); // Require the path module
+const path = require("path");
 const logger = require("./config/winston");
 
 // Create an Express application
@@ -21,13 +20,13 @@ app.use(morgan("dev"));
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-// Apply rate limiting
 app.use(rateLimitMiddleware);
 
 app.use("/status", (req, res) => {
   res.send("OK");
 }); // health check endpoint
 
+/* eslint-disable no-unused-vars */
 app.use((err, req, res, next) => {
   if (err.status === 429) {
     return res.status(429).json({
@@ -39,6 +38,7 @@ app.use((err, req, res, next) => {
     message: "Internal server error",
   });
 });
+/* eslint-disable no-unused-vars */
 
 // Serve Swagger UI static files
 app.use(
@@ -50,19 +50,17 @@ app.use("/docs", express.static(path.join(__dirname, "public", "docs")));
 
 // Define routes
 const archetypesRoutes = require("./routes/archetypes");
-const bigFiveRoutes = require("./routes/bigFiveRoutes"); // Importing Big Five routes
+const bigFiveRoutes = require("./routes/bigFiveRoutes");
+const museumPersonalityRoutes = require("./routes/museumPersonalityRoutes"); // Import the new routes
 
 app.use("/archetypes", archetypesRoutes);
-app.use("/bigfive", bigFiveRoutes); // New route for Big Five
+app.use("/bigfive", bigFiveRoutes);
+app.use("/museum-personality", museumPersonalityRoutes); // Add the new routes
 
 // Handle 404 errors
-app.use((req, res, next) => {
+app.use((req, res) => {
   res.status(404).json({ error: "Not found" });
 });
 
-// Start the server
-const PORT = process.env.PORT || 5500; // Use the PORT from environment or default to 5500
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
-
-// Export the app
+// Export the app for Firebase Functions
 module.exports = app;
