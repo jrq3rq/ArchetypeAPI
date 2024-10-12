@@ -1,0 +1,124 @@
+{
+  "traits": [
+    {
+      "trait": "Adventure vs. Familiarity",
+      "description": "A measure of one's inclination towards new experiences versus comfort in routine.",
+      "subheader": "How It Relates to You:",
+      "subheaderDescription": "If you feel more energized when trying new experiences, this trait highlights your adventurous spirit.",
+      "questions": [
+        {
+          "text": "I feel more energized when trying new experiences than when sticking to my usual routine.",
+          "isReverseScored": false
+        }
+      ]
+    },
+    {
+      "trait": "Curiosity vs. Knowledge",
+      "description": "A measure of one's desire to learn new things compared to sharing existing knowledge.",
+      "subheader": "How It Relates to You:",
+      "subheaderDescription": "If you enjoy learning new things more than sharing what you already know, this trait reflects your curiosity.",
+      "questions": [
+        {
+          "text": "I enjoy learning new things more than sharing what I already know.",
+          "isReverseScored": false
+        }
+      ]
+    },
+    {
+      "trait": "Social Interaction vs. Solitude",
+      "description": "A measure of one's comfort in social settings compared to preference for solitude.",
+      "subheader": "How It Relates to You:",
+      "subheaderDescription": "If you thrive in social settings rather than enjoying time alone, this trait highlights your sociability.",
+      "questions": [
+        {
+          "text": "I thrive in social settings rather than enjoying time alone.",
+          "isReverseScored": false
+        }
+      ]
+    },
+    {
+      "trait": "Pragmatism vs. Idealism",
+      "description": "A measure of one's preference for practical solutions versus exploring theoretical ideas.",
+      "subheader": "How It Relates to You:",
+      "subheaderDescription": "If you prefer practical solutions over exploring theoretical ideas, this trait reflects your pragmatic nature.",
+      "questions": [
+        {
+          "text": "I prefer practical solutions over exploring theoretical ideas.",
+          "isReverseScored": false
+        }
+      ]
+    },
+    {
+      "trait": "Leadership vs. Support",
+      "description": "A measure of one's tendency to take charge versus supporting others.",
+      "subheader": "How It Relates to You:",
+      "subheaderDescription": "If you naturally take charge in group situations rather than supporting others from the background, this trait indicates leadership qualities.",
+      "questions": [
+        {
+          "text": "I naturally take charge in group situations rather than supporting others from the background.",
+          "isReverseScored": false
+        }
+      ]
+    },
+    {
+      "trait": "Emotion vs. Logic",
+      "description": "A measure of one's reliance on emotions versus logical reasoning in decision-making.",
+      "subheader": "How It Relates to You:",
+      "subheaderDescription": "If you often rely on your feelings when making decisions instead of logical reasoning, this trait highlights your emotional orientation.",
+      "questions": [
+        {
+          "text": "I often rely on my feelings when making decisions instead of logical reasoning.",
+          "isReverseScored": false
+        }
+      ]
+    },
+    {
+      "trait": "Creativity vs. Order",
+      "description": "A measure of one's preference for creative chaos versus structured planning.",
+      "subheader": "How It Relates to You:",
+      "subheaderDescription": "If you embrace creative chaos rather than sticking to a structured plan, this trait reflects your creative mindset.",
+      "questions": [
+        {
+          "text": "I embrace creative chaos rather than sticking to a structured plan.",
+          "isReverseScored": false
+        }
+      ]
+    },
+    {
+      "trait": "Empathy vs. Independence",
+      "description": "A measure of one's tendency to prioritize others' feelings versus self-reliance.",
+      "subheader": "How It Relates to You:",
+      "subheaderDescription": "If you tend to prioritize others' feelings over your own needs, this trait highlights your empathetic nature.",
+      "questions": [
+        {
+          "text": "I tend to prioritize others' feelings over my own needs.",
+          "isReverseScored": false
+        }
+      ]
+    },
+    {
+      "trait": "Experimentation vs. Tradition",
+      "description": "A measure of one's interest in new methods compared to adherence to traditional practices.",
+      "subheader": "How It Relates to You:",
+      "subheaderDescription": "If you are more interested in exploring new methods than adhering to traditional practices, this trait reflects your experimental nature.",
+      "questions": [
+        {
+          "text": "I am more interested in exploring new methods than adhering to traditional practices.",
+          "isReverseScored": false
+        }
+      ]
+    },
+    {
+      "trait": "Insight vs. Action",
+      "description": "A measure of one's tendency to reflect and analyze versus jumping straight into action.",
+      "subheader": "How It Relates to You:",
+      "subheaderDescription": "If you prefer to reflect and analyze rather than jump straight into action, this trait highlights your thoughtful approach.",
+      "questions": [
+        {
+          "text": "I prefer to reflect and analyze rather than jump straight into action.",
+          "isReverseScored": false
+        }
+      ]
+    }
+  ]
+}

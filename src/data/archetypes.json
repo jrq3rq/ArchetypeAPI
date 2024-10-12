@@ -27,10 +27,10 @@
     "characteristics": {
       "intelligence": 0.7,
       "creativity": 0.9,
-      "EQ": 0.6,
+      "EQ": 0.5,
       "motivation": 0.8,
-      "confidence": 0.7,
-      "empathy": 0.5
+      "confidence": 0.8,
+      "empathy": 0.4
     },
     "traits": [
       "Defiant",
@@ -112,12 +112,12 @@
       "power": 4
     },
     "characteristics": {
-      "intelligence": 0.8,
-      "creativity": 0.9,
+      "intelligence": 0.9,
+      "creativity": 1.0,
       "EQ": 0.7,
-      "motivation": 0.8,
+      "motivation": 0.9,
       "confidence": 0.9,
-      "empathy": 0.6
+      "empathy": 0.5
     },
     "traits": [
       "Visionary",
@@ -200,11 +200,11 @@
     },
     "characteristics": {
       "intelligence": 0.7,
-      "creativity": 0.6,
-      "EQ": 0.5,
+      "creativity": 0.5,
+      "EQ": 0.6,
       "motivation": 0.9,
-      "confidence": 0.8,
-      "empathy": 0.4
+      "confidence": 0.9,
+      "empathy": 0.5
     },
     "traits": [
       "Courageous",
@@ -287,11 +287,11 @@
     },
     "characteristics": {
       "intelligence": 0.8,
-      "creativity": 0.9,
+      "creativity": 1.0,
       "EQ": 0.7,
       "motivation": 0.8,
-      "confidence": 0.9,
-      "empathy": 0.6
+      "confidence": 0.8,
+      "empathy": 0.7
     },
     "traits": [
       "Innovative",
@@ -375,10 +375,10 @@
     "characteristics": {
       "intelligence": 0.9,
       "creativity": 0.6,
-      "EQ": 0.8,
+      "EQ": 0.7,
       "motivation": 0.9,
-      "confidence": 0.8,
-      "empathy": 0.5
+      "confidence": 0.9,
+      "empathy": 0.4
     },
     "traits": [
       "Authoritative",
@@ -465,7 +465,7 @@
       "EQ": 0.9,
       "motivation": 0.7,
       "confidence": 0.7,
-      "empathy": 0.9
+      "empathy": 1.0
     },
     "traits": [
       "Compassionate",
@@ -547,9 +547,9 @@
       "power": 2
     },
     "characteristics": {
-      "intelligence": 0.8,
-      "creativity": 0.9,
-      "EQ": 0.7,
+      "intelligence": 0.6,
+      "creativity": 0.7,
+      "EQ": 0.8,
       "motivation": 0.6,
       "confidence": 0.5,
       "empathy": 0.9
@@ -628,12 +628,12 @@
       "power": 2
     },
     "characteristics": {
-      "intelligence": 0.9,
+      "intelligence": 1.0,
       "creativity": 0.7,
-      "EQ": 0.8,
-      "motivation": 0.6,
+      "EQ": 0.7,
+      "motivation": 0.7,
       "confidence": 0.7,
-      "empathy": 0.8
+      "empathy": 0.6
     },
     "traits": [
       "Cerebral",
@@ -718,7 +718,7 @@
       "intelligence": 0.8,
       "creativity": 0.9,
       "EQ": 0.6,
-      "motivation": 0.7,
+      "motivation": 0.9,
       "confidence": 0.8,
       "empathy": 0.5
     },
@@ -802,12 +802,12 @@
       "power": 2
     },
     "characteristics": {
-      "intelligence": 0.8,
-      "creativity": 0.9,
-      "EQ": 0.6,
-      "motivation": 0.7,
-      "confidence": 0.8,
-      "empathy": 0.5
+      "intelligence": 0.7,
+      "creativity": 0.8,
+      "EQ": 0.8,
+      "motivation": 0.8,
+      "confidence": 0.7,
+      "empathy": 0.8
     },
     "traits": ["Passionate", "Sensual", "Dramatic", "Aesthetic", "Romantic"],
     "motivations": ["Intimacy", "Beauty", "Love", "Self-indulgence"],
@@ -884,11 +884,11 @@
     },
     "characteristics": {
       "intelligence": 0.8,
-      "creativity": 0.9,
-      "EQ": 0.6,
+      "creativity": 1.0,
+      "EQ": 0.5,
       "motivation": 0.7,
-      "confidence": 0.8,
-      "empathy": 0.5
+      "confidence": 0.7,
+      "empathy": 0.4
     },
     "traits": [
       "Playful",
@@ -970,12 +970,12 @@
       "power": 3
     },
     "characteristics": {
-      "intelligence": 0.8,
-      "creativity": 0.9,
-      "EQ": 0.6,
+      "intelligence": 0.7,
+      "creativity": 0.6,
+      "EQ": 0.7,
       "motivation": 0.7,
-      "confidence": 0.8,
-      "empathy": 0.5
+      "confidence": 0.6,
+      "empathy": 0.7
     },
     "traits": [
       "Practical",
