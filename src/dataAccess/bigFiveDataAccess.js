@@ -1,6 +1,5 @@
 // src/dataAccess/bigFiveDataAccess.js
 
-// const localBigFive = require("../data/bigFiveData.json");
 const localBigFive = require("../data/bigFiveDataTest.json");
 const firebaseConfig = require("../config/firebaseConfig");
 const admin = require("firebase-admin");
