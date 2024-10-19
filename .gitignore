@@ -1,5 +1,6 @@
 # dependencies
 /node_modules
+/functions/node_modules
 
 /.pnp
 .pnp.js
@@ -13,24 +14,37 @@
 
 # misc
 .DS_Store
-.env  # Ensuring the root .env file is ignored
+.env                     # Ensuring the root .env file is ignored
 
-# Ignore Firebase keys and credentials (including older ones)
-/src/config/*.json  # Add a wildcard to ignore any JSON files with credentials
+# Ignore Firebase keys and credentials
+/src/config/*.json       # Add a wildcard to ignore any JSON files with credentials
 .firebase
+.firebaserc              # Ignore Firestore configuration file (contains Firebase project configuration)
 firebase-debug.log
+functions/error.log
+functions/combined.log
 
-# Firebase Functions
-/functions/node_modules
-/functions/.env  # Ensuring Firebase functions .env is ignored
+# Firebase Functions environment and logs
+/functions/.env          # Ensuring Firebase functions .env is ignored
 /functions/firebase-debug.log
-/functions/lib/  # If you compile TypeScript or other source files
+/functions/lib/          # If you compile TypeScript or other source files
 
 # Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+combined.log
+error.log
+ui-debug.log
 
-# Newly added directories
-scripts/
-venv/
+# Ignore potentially sensitive directories or files
+/scripts/                # If scripts contain sensitive code or secrets
+/venv/                   # Ignore virtual environment directories
+
+# Ignore IDE/editor-specific settings
+.vscode/
+.idea/
+*.swp
+
+# Ignore any personal or temporary files
+*.tmp
