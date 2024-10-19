@@ -1,5 +1,3 @@
-// archetypeModel.js
-// Load archetype data
 const archetypesData = require("../data/archetypes.json");
 const { v4: uuidv4 } = require("uuid");
 
@@ -24,7 +22,19 @@ class Archetype {
     this.practicalApplications = data.practicalApplications;
     this.characteristics = data.characteristics;
     this.ratings = data.ratings;
+
+    // New fields added
+    this.weaknesses = data.weaknesses;
+    this.fears = data.fears;
+    this.decisionMakingStyle = data.decisionMakingStyle;
+    this.coreValues = data.coreValues;
+    this.physicalAndEmotionalAppearance = data.physicalAndEmotionalAppearance;
+    this.symbolismAndIconography = data.symbolismAndIconography;
+    this.preferredEnvironments = data.preferredEnvironments;
+    this.coreSkillsAbilities = data.coreSkillsAbilities;
+    this.emotionalTriggers = data.emotionalTriggers;
   }
+
   toJSON() {
     return {
       order: this.order,
@@ -46,6 +56,17 @@ class Archetype {
       practicalApplications: this.practicalApplications,
       characteristics: this.characteristics,
       ratings: this.ratings,
+
+      // New fields added
+      weaknesses: this.weaknesses,
+      fears: this.fears,
+      decisionMakingStyle: this.decisionMakingStyle,
+      coreValues: this.coreValues,
+      physicalAndEmotionalAppearance: this.physicalAndEmotionalAppearance,
+      symbolismAndIconography: this.symbolismAndIconography,
+      preferredEnvironments: this.preferredEnvironments,
+      coreSkillsAbilities: this.coreSkillsAbilities,
+      emotionalTriggers: this.emotionalTriggers,
     };
   }
 }
@@ -122,6 +143,23 @@ class ArchetypeModel {
     return this._filterByProperty("interests", interest);
   }
 
+  // Additional methods for filtering by new properties
+  findByWeakness(weakness) {
+    return this._filterByProperty("weaknesses", weakness);
+  }
+
+  findByFear(fear) {
+    return this._filterByProperty("fears", fear);
+  }
+
+  findByCoreValue(coreValue) {
+    return this._filterByProperty("coreValues", coreValue);
+  }
+
+  findByPreferredEnvironment(environment) {
+    return this._filterByProperty("preferredEnvironments", environment);
+  }
+
   getHistoricalExamples(name) {
     const archetype = this.archetypes.find(
       (a) => a.name.toLowerCase() === name.toLowerCase()
@@ -143,11 +181,11 @@ class ArchetypeModel {
     return archetype ? archetype.practicalApplications : [];
   }
 
-  // Helper method to reduce redundancy
+  // Define the method if it's not there yet in ArchetypeModel.js
   _filterByProperty(property, value) {
-    const pattern = new RegExp(value, "i"); // Use a case-insensitive regular expression
+    const pattern = new RegExp(value, "i"); // Case-insensitive match
     return this.archetypes.filter((archetype) =>
-      archetype[property].some((item) => pattern.test(item))
+      archetype[property]?.some((item) => pattern.test(item))
     );
   }
 }

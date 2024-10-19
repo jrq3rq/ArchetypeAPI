@@ -3,7 +3,20 @@ const ArchetypeModel = require("../models/archetypeModel");
 // Get all archetypes
 exports.getAll = (req, res) => {
   try {
-    const archetypes = ArchetypeModel.findAll(); // Changed from Archetype to ArchetypeModel
+    const { sortBy, sortOrder = "asc" } = req.query; // Default order is ascending
+    let archetypes = ArchetypeModel.findAll();
+
+    if (sortBy) {
+      // Make sure the sortBy key exists on the objects to prevent errors
+      archetypes = archetypes.sort((a, b) => {
+        const aValue = a[sortBy];
+        const bValue = b[sortBy];
+        return sortOrder === "desc"
+          ? bValue.localeCompare(aValue)
+          : aValue.localeCompare(bValue);
+      });
+    }
+
     res.status(200).json(archetypes);
   } catch (error) {
     res.status(500).json({
@@ -13,18 +26,14 @@ exports.getAll = (req, res) => {
   }
 };
 
-// Controller method to get an archetype by name
+// Get an archetype by name
 exports.getByName = (req, res) => {
   try {
-    const name = req.params.name; // or 'id' if your route is using ':id'
+    const name = req.params.name;
     const archetype = ArchetypeModel.searchByName(name);
-
-    // Since searchByName might return an array, you should handle that accordingly
     if (!archetype || archetype.length === 0) {
       return res.status(404).json({ message: "Archetype not found" });
     }
-
-    // If you expect a single archetype, respond with the first one in the array
     res.json(archetype[0]);
   } catch (error) {
     res.status(500).json({
@@ -34,9 +43,10 @@ exports.getByName = (req, res) => {
   }
 };
 
+// Get archetypes by order
 exports.getByOrder = (req, res) => {
   try {
-    const order = req.params.order; // Get the 'order' parameter from the request
+    const order = req.params.order;
     const archetypes = ArchetypeModel.findByOrder(order);
     if (archetypes.length === 0) {
       return res
@@ -52,6 +62,7 @@ exports.getByOrder = (req, res) => {
   }
 };
 
+// Get archetypes by trait
 exports.getByTrait = (req, res) => {
   try {
     const { trait } = req.params;
@@ -127,6 +138,7 @@ exports.getByInterest = (req, res) => {
   }
 };
 
+// Get archetypes by planet
 exports.getByPlanet = (req, res) => {
   try {
     const planet = req.params.planet;
@@ -145,6 +157,7 @@ exports.getByPlanet = (req, res) => {
   }
 };
 
+// Get archetypes by third eye shape
 exports.getByThirdEye = (req, res) => {
   try {
     const thirdEye = req.params.thirdEye;
@@ -158,6 +171,102 @@ exports.getByThirdEye = (req, res) => {
   } catch (error) {
     res.status(500).json({
       message: "An error occurred while retrieving archetypes by thirdEye.",
+      error: error.message,
+    });
+  }
+};
+
+// Get archetypes by weakness
+exports.getByWeakness = (req, res) => {
+  try {
+    const { weakness } = req.params;
+    const archetypes = ArchetypeModel.filterByProperty("weaknesses", weakness);
+    if (!archetypes || archetypes.length === 0) {
+      return res
+        .status(404)
+        .json({ message: "No archetypes found with the provided weakness" });
+    }
+    res.json(archetypes);
+  } catch (error) {
+    res.status(500).json({
+      message: "An error occurred while retrieving archetypes by weakness.",
+      error: error.message,
+    });
+  }
+};
+
+// Method to filter archetypes by fear
+exports.getByFear = (req, res) => {
+  try {
+    const { fear } = req.params;
+    const archetypes = ArchetypeModel._filterByProperty("fears", fear);
+    if (!archetypes || archetypes.length === 0) {
+      return res
+        .status(404)
+        .json({ message: "No archetypes found with the provided fear" });
+    }
+    res.json(archetypes);
+  } catch (error) {
+    res.status(500).json({
+      message: "An error occurred while retrieving archetypes by fear.",
+      error: error.message,
+    });
+  }
+};
+
+// Get archetypes by core value
+exports.getByCoreValue = (req, res) => {
+  try {
+    const { coreValue } = req.params;
+    const archetypes = ArchetypeModel.filterByProperty("coreValues", coreValue);
+    if (!archetypes || archetypes.length === 0) {
+      return res
+        .status(404)
+        .json({ message: "No archetypes found with the provided core value" });
+    }
+    res.json(archetypes);
+  } catch (error) {
+    res.status(500).json({
+      message: "An error occurred while retrieving archetypes by core value.",
+      error: error.message,
+    });
+  }
+};
+
+// Get archetypes by preferred environment
+exports.getByEnvironment = (req, res) => {
+  try {
+    const { environment } = req.params;
+    const archetypes = ArchetypeModel._filterByProperty(
+      "preferredEnvironments",
+      environment
+    );
+    if (!archetypes || archetypes.length === 0) {
+      return res
+        .status(404)
+        .json({ message: "No archetypes found with the provided environment" });
+    }
+    res.json(archetypes);
+  } catch (error) {
+    res.status(500).json({
+      message: "An error occurred while retrieving archetypes by environment.",
+      error: error.message,
+    });
+  }
+};
+
+// Get decision-making style for an archetype
+exports.getDecisionMakingStyle = (req, res) => {
+  try {
+    const { name } = req.params;
+    const archetype = ArchetypeModel.searchByName(name);
+    if (!archetype || archetype.length === 0) {
+      return res.status(404).json({ message: "Archetype not found" });
+    }
+    res.json({ decisionMakingStyle: archetype[0].decisionMakingStyle });
+  } catch (error) {
+    res.status(500).json({
+      message: "An error occurred while retrieving the decision-making style.",
       error: error.message,
     });
   }
@@ -220,8 +329,7 @@ exports.getPracticalApplications = (req, res) => {
   }
 };
 
-// Update these existing methods to use ArchetypeModel instead of Archetype:
-
+// Search by name
 exports.search = (req, res) => {
   try {
     const name = req.query.name;
@@ -243,6 +351,7 @@ exports.search = (req, res) => {
   }
 };
 
+// Get random archetype
 exports.getRandom = (req, res) => {
   try {
     const archetypes = ArchetypeModel.findAll();
@@ -258,6 +367,7 @@ exports.getRandom = (req, res) => {
   }
 };
 
+// Filter archetypes by trait
 exports.filter = (req, res) => {
   try {
     const trait = req.query.trait;
@@ -279,6 +389,7 @@ exports.filter = (req, res) => {
   }
 };
 
+// Paginate archetypes
 exports.paginate = (req, res) => {
   try {
     const page = parseInt(req.query.page, 10);

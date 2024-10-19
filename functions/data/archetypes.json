@@ -54,6 +54,47 @@
       "Working independently with few constraints.",
       "Pushing boundaries of what's acceptable."
     ],
+    "weaknesses": [
+      "Prone to destabilizing forces",
+      "Initiating conflict without strategic purpose",
+      "Struggles to operate within established systems",
+      "Ignores long-term consequences"
+    ],
+    "fears": [
+      "Suppression of autonomy",
+      "Forced alignment with rigid structures",
+      "Being subdued by external dominance"
+    ],
+    "decisionMakingStyle": "Spontaneous and volatile, driven by disruption. Often seeks immediate action over deliberation, prioritizing independence.",
+    "coreValues": [
+      "Uncompromised freedom",
+      "Autonomy",
+      "Dismantling of imposed order"
+    ],
+    "physicalAndEmotionalAppearance": "Takes on a form that is jagged, chaotic, and unpredictable. Displays rebellious energy in erratic shifts of form and behavior, embodying sharp angles or forms that defy convention.",
+    "symbolismAndIconography": [
+      "Fractured chains",
+      "Graffiti-like markings",
+      "Shattered constructs"
+    ],
+    "preferredEnvironments": [
+      "Chaotic settings",
+      "Decentralized spaces",
+      "Volatile realms",
+      "Disrupted ecosystems"
+    ],
+    "coreSkillsAbilities": [
+      "Incite upheaval",
+      "Dismantle authoritarian structures",
+      "Awaken dormant forces of rebellion"
+    ],
+    "emotionalTriggers": {
+      "positive": [
+        "Resistance against oppression",
+        "Expressions of autonomous action"
+      ],
+      "negative": ["Suppression", "Enforced control"]
+    },
     "historicalExamples": [
       {
         "name": "Martin Luther King Jr.",
@@ -141,6 +182,46 @@
       "Entrepreneurial ventures and startups",
       "Politics, activism, social justice causes"
     ],
+    "weaknesses": [
+      "Prone to hubris",
+      "Manipulation of energy without understanding its limits",
+      "Detachment from natural forces when overly fixated on abstract power"
+    ],
+    "fears": [
+      "Loss of control over transformational forces",
+      "Failure to influence change",
+      "Stagnation of progress"
+    ],
+    "decisionMakingStyle": "Calculated, strategic, and always seeking the alignment of elemental forces for long-term transformation.",
+    "coreValues": [
+      "Mastery over transformation",
+      "Expansion of knowledge",
+      "Harnessing of unseen forces"
+    ],
+    "physicalAndEmotionalAppearance": "A fluid, shifting form that exudes an aura of power and serenity. Often manifests in a multi-dimensional, luminous shape that radiates wisdom.",
+    "symbolismAndIconography": [
+      "Arcane symbols",
+      "Spirals of energy",
+      "Transformative glyphs"
+    ],
+    "preferredEnvironments": [
+      "Realms of alchemical transformation",
+      "High-energy zones",
+      "Places where matter and form are in constant flux"
+    ],
+    "coreSkillsAbilities": [
+      "Manipulating reality",
+      "Manifesting potential into actualized forms",
+      "Transcending boundaries of ordinary perception"
+    ],
+    "emotionalTriggers": {
+      "positive": ["Moments of breakthrough", "Discovery", "Transformation"],
+      "negative": [
+        "Ignorance",
+        "Energy blockages",
+        "Failure of a transformative process"
+      ]
+    },
     "historicalExamples": [
       {
         "name": "Steve Jobs",
@@ -228,6 +309,40 @@
       "Protecting and advocating for others",
       "Overcoming adversity and obstacles"
     ],
+    "weaknesses": [
+      "Prone to overextension",
+      "Assuming sole responsibility for protection",
+      "Risking everything for the sake of its mission"
+    ],
+    "fears": [
+      "Failure to maintain strength or justice",
+      "Inability to protect or overcome"
+    ],
+    "decisionMakingStyle": "Decisive and swift, acting on deep internal codes of honor and duty. Always prioritizes immediate action in response to threats.",
+    "coreValues": ["Valor", "Justice", "Unyielding strength"],
+    "physicalAndEmotionalAppearance": "A towering, armored form that radiates strength and protection. Its presence is unshakable, with a glowing core that emanates courage and resolve.",
+    "symbolismAndIconography": [
+      "Shields",
+      "Radiant symbols of protection",
+      "Glowing blades"
+    ],
+    "preferredEnvironments": [
+      "Realms under threat",
+      "Spaces where order and justice must be defended or restored"
+    ],
+    "coreSkillsAbilities": [
+      "Unparalleled endurance",
+      "Leading forces to victory",
+      "Shielding others from harm"
+    ],
+    "emotionalTriggers": {
+      "positive": [
+        "Calls to protect",
+        "Challenges to overcome",
+        "Defense of justice"
+      ],
+      "negative": ["Failure to protect", "Dishonor", "Unchecked threats"]
+    },
     "historicalExamples": [
       {
         "name": "Nelson Mandela",
@@ -315,6 +430,46 @@
       "Inventing solutions and pushing boundaries",
       "Photography, decor, fashion design"
     ],
+    "weaknesses": [
+      "Prone to becoming lost in endless cycles of creation",
+      "Detachment from balance or practicality",
+      "Vulnerability to paralysis when creativity is stifled"
+    ],
+    "fears": [
+      "Stagnation",
+      "Loss of inspiration",
+      "Inability to bring forth new forms"
+    ],
+    "decisionMakingStyle": "Introspective and deliberate, focusing on the generation of new, original structures and designs.",
+    "coreValues": ["Innovation", "Self-expression", "Birth of new realities"],
+    "physicalAndEmotionalAppearance": "An ethereal, shifting form that constantly shapes and reshapes itself. It manifests as vibrant colors and swirling energies, always in the process of creating.",
+    "symbolismAndIconography": [
+      "Swirling mists",
+      "Tools of creation",
+      "Abstract shapes in motion"
+    ],
+    "preferredEnvironments": [
+      "Places of raw potential",
+      "Creative hubs",
+      "Realms of pure imagination where form and thought are constantly evolving"
+    ],
+    "coreSkillsAbilities": [
+      "Generating new realities",
+      "Creating from chaos",
+      "Inspiring new beginnings"
+    ],
+    "emotionalTriggers": {
+      "positive": [
+        "Boundless creativity",
+        "Freedom to innovate",
+        "Untouched realms of possibility"
+      ],
+      "negative": [
+        "Rigid structures",
+        "Stagnation",
+        "Inability to manifest ideas"
+      ]
+    },
     "historicalExamples": [
       {
         "name": "Leonardo da Vinci",
@@ -402,6 +557,34 @@
       "Overseeing processes, quality control, auditing.",
       "Setting rules, policies, standards, procedures."
     ],
+    "weaknesses": [
+      "Prone to authoritarian rigidity",
+      "Overly controlling forces",
+      "Inability to adapt to changing circumstances"
+    ],
+    "fears": [
+      "Loss of command over structure",
+      "Dissolution of order",
+      "Rise of chaos within its domain"
+    ],
+    "decisionMakingStyle": "Strategic and hierarchical, with decisions always aimed at maintaining control, stability, and centralized authority.",
+    "coreValues": ["Power", "Stability", "Absolute control"],
+    "physicalAndEmotionalAppearance": "A formidable, grand structure that exudes authority and command. Its form is often monumental, representing towers, thrones, or crystalline structures of control.",
+    "symbolismAndIconography": ["Crowns", "Thrones", "Solid geometric forms"],
+    "preferredEnvironments": [
+      "Structured realms",
+      "Hierarchical spaces",
+      "Centralized systems of power"
+    ],
+    "coreSkillsAbilities": [
+      "Maintaining order",
+      "Ensuring loyalty",
+      "Enforcing laws to sustain balance"
+    ],
+    "emotionalTriggers": {
+      "positive": ["Loyalty", "Displays of control", "Flourishing of order"],
+      "negative": ["Disobedience", "Chaos", "Challenges to sovereignty"]
+    },
     "historicalExamples": [
       {
         "name": "Queen Elizabeth I",
@@ -489,6 +672,30 @@
       "Creating a loving home and family life",
       "Connecting people to helpful resources"
     ],
+    "weaknesses": [
+      "Prone to self-sacrifice",
+      "Expending resources beyond sustainable limits",
+      "Enabling dependency rather than fostering growth"
+    ],
+    "fears": [
+      "Inability to provide care",
+      "Being unable to nurture or support",
+      "Causing harm unintentionally"
+    ],
+    "decisionMakingStyle": "Gentle and deliberate, always prioritizing the well-being of those under its care. Makes decisions based on the preservation and nurturing of life.",
+    "coreValues": ["Compassion", "Nurturing", "Protection"],
+    "physicalAndEmotionalAppearance": "A warm, enveloping presence, often manifesting as flowing forms or gentle light that wraps around and protects. Its form radiates warmth and care.",
+    "symbolismAndIconography": ["Cradles", "Open hands", "Soft flowing lights"],
+    "preferredEnvironments": [
+      "Nurturing spaces",
+      "Healing realms",
+      "Places of restoration"
+    ],
+    "coreSkillsAbilities": ["Restoring", "Protecting", "Providing support"],
+    "emotionalTriggers": {
+      "positive": ["Acts of kindness", "Nurturing growth", "Protection"],
+      "negative": ["Neglect", "Harm", "Inability to provide care"]
+    },
     "historicalExamples": [
       {
         "name": "Florence Nightingale",
@@ -570,6 +777,34 @@
       "Organizing celebrations and social events",
       "Faith-based activities and organizations"
     ],
+    "weaknesses": [
+      "Susceptible to corruption",
+      "Naive in understanding complexities",
+      "Vulnerable to deception or manipulation"
+    ],
+    "fears": [
+      "Loss of purity",
+      "Exposure to darkness or corruption",
+      "Destruction of simple existence"
+    ],
+    "decisionMakingStyle": "Pure and emotional, guided by simplicity and a desire to maintain harmony and innocence.",
+    "coreValues": ["Simplicity", "Purity", "Optimism"],
+    "physicalAndEmotionalAppearance": "A soft, radiant light or a gentle breeze, always calm, exuding an aura of peaceful simplicity.",
+    "symbolismAndIconography": ["Flowers", "Doves", "Sunlight"],
+    "preferredEnvironments": [
+      "Harmonious realms",
+      "Peaceful spaces",
+      "Places untouched by corruption"
+    ],
+    "coreSkillsAbilities": [
+      "Spreading joy",
+      "Restoring harmony",
+      "Protecting innocence from darkness"
+    ],
+    "emotionalTriggers": {
+      "positive": ["Acts of kindness", "Beauty", "Peace"],
+      "negative": ["Corruption", "Conflict", "Destruction of simplicity"]
+    },
     "historicalExamples": [
       {
         "name": "Anne Frank",
@@ -657,6 +892,34 @@
       "Writing, blogging, journalism",
       "Consulting, advising, think tanks"
     ],
+    "weaknesses": [
+      "Prone to isolation",
+      "Overanalysis",
+      "Detachment from emotional experiences"
+    ],
+    "fears": ["Ignorance", "Misinformation", "Loss of wisdom"],
+    "decisionMakingStyle": "Deeply analytical, focusing on contemplation, knowledge accumulation, and objective understanding.",
+    "coreValues": ["Knowledge", "Wisdom", "Insight"],
+    "physicalAndEmotionalAppearance": "A figure of stillness and depth, often taking the form of crystalline structures or ancient texts. Radiates calm, focused energy.",
+    "symbolismAndIconography": ["Books", "Scrolls", "Eyes", "Candles"],
+    "preferredEnvironments": [
+      "Archives",
+      "Libraries",
+      "Spaces of knowledge preservation"
+    ],
+    "coreSkillsAbilities": [
+      "Offering clarity",
+      "Solving deep mysteries",
+      "Providing wisdom"
+    ],
+    "emotionalTriggers": {
+      "positive": [
+        "Discovery",
+        "Intellectual debate",
+        "Illumination of truths"
+      ],
+      "negative": ["Ignorance", "Misinformation", "Distortion of knowledge"]
+    },
     "historicalExamples": [
       {
         "name": "Socrates",
@@ -744,6 +1007,30 @@
       "Living an unconventional lifestyle",
       "Interacting with nature and the outdoors"
     ],
+    "weaknesses": [
+      "Restless",
+      "Abandoning stability for discovery",
+      "Dissatisfaction with settlement"
+    ],
+    "fears": ["Confinement", "Stagnation", "Loss of freedom"],
+    "decisionMakingStyle": "Adventurous and curious, seeking the new and unknown, driven by an insatiable desire to explore.",
+    "coreValues": ["Freedom", "Discovery", "Self-reliance"],
+    "physicalAndEmotionalAppearance": "Constantly in motion, shifting forms, and often appearing as a figure in motion through landscapes of endless horizons. Embodies freedom and adventure.",
+    "symbolismAndIconography": ["Compasses", "Maps", "Stars", "Trails"],
+    "preferredEnvironments": [
+      "Vast realms",
+      "Untamed wilderness",
+      "Places of perpetual discovery"
+    ],
+    "coreSkillsAbilities": [
+      "Adapting",
+      "Exploring the unknown",
+      "Surviving extreme conditions"
+    ],
+    "emotionalTriggers": {
+      "positive": ["New experiences", "Uncharted lands", "Discovery"],
+      "negative": ["Confinement", "Repetition", "Lack of novelty"]
+    },
     "historicalExamples": [
       {
         "name": "Marco Polo",
@@ -825,6 +1112,34 @@
       "Fashion and glamour",
       "Romance, relationships, sexuality"
     ],
+    "weaknesses": [
+      "Prone to excessive attachment",
+      "Overextension of desire",
+      "Lost in pursuit of connection"
+    ],
+    "fears": ["Rejection", "Isolation", "Absence of fulfillment"],
+    "decisionMakingStyle": "Emotionally intuitive and passion-driven, seeking connection and fulfillment in every decision.",
+    "coreValues": ["Intimacy", "Passion", "Aesthetic beauty"],
+    "physicalAndEmotionalAppearance": "Fluid elegance, embodying warmth, soft light, and sensuous motion. Presence is gentle, alluring, and imbued with attraction.",
+    "symbolismAndIconography": [
+      "Roses",
+      "Intertwining forms",
+      "Soft glowing orbs"
+    ],
+    "preferredEnvironments": [
+      "Rich sensory realms",
+      "Emotional warmth",
+      "Lush artistic landscapes"
+    ],
+    "coreSkillsAbilities": [
+      "Creating deep bonds",
+      "Inspiring beauty and passion",
+      "Harmonizing conflicting forces"
+    ],
+    "emotionalTriggers": {
+      "positive": ["Love", "Emotional connection", "Beauty and fulfillment"],
+      "negative": ["Rejection", "Isolation", "Dissonance in harmony"]
+    },
     "historicalExamples": [
       {
         "name": "Cleopatra",
@@ -912,6 +1227,35 @@
       "Testing boundaries and breaking taboos",
       "Finding inconsistencies in conventional thinking"
     ],
+    "weaknesses": [
+      "Prone to recklessness",
+      "Disruptive tendencies",
+      "Inability to respect boundaries"
+    ],
+    "fears": ["Conformity", "Boredom", "Absence of spontaneity"],
+    "decisionMakingStyle": "Playful and impulsive, driven by entertainment, unpredictability, and subversion of the status quo.",
+    "coreValues": ["Joy", "Humor", "Spontaneity"],
+    "physicalAndEmotionalAppearance": "Shape-shifting, unpredictable entity embodying colorful, erratic motion. Form is fluid, constantly changing.",
+    "symbolismAndIconography": [
+      "Masks",
+      "Jester's bells",
+      "Playing cards",
+      "Spiral patterns"
+    ],
+    "preferredEnvironments": [
+      "Chaotic realms",
+      "Unpredictable spaces",
+      "Absurd social gatherings"
+    ],
+    "coreSkillsAbilities": [
+      "Shifting perspective",
+      "Provoking laughter",
+      "Subverting systems through humor"
+    ],
+    "emotionalTriggers": {
+      "positive": ["Spontaneity", "Playful disruption", "Breaking boundaries"],
+      "negative": ["Rigidity", "Seriousness", "Strict order"]
+    },
     "historicalExamples": [
       {
         "name": "Charlie Chaplin",
@@ -999,6 +1343,39 @@
       "Participating in traditions and institutions",
       "Living a modest, down-to-earth lifestyle"
     ],
+    "weaknesses": [
+      "Prone to conformity",
+      "Resistance to innovation",
+      "Overly focused on fitting in"
+    ],
+    "fears": [
+      "Exclusion",
+      "Isolation",
+      "Being singled out from the collective"
+    ],
+    "decisionMakingStyle": "Practical, grounded, and community-driven. Makes decisions with stability and simplicity in mind.",
+    "coreValues": ["Relatability", "Stability", "Authenticity"],
+    "physicalAndEmotionalAppearance": "Unassuming, grounded presence, reflecting balance, neutrality, and simplicity.",
+    "symbolismAndIconography": [
+      "Hands clasped together",
+      "Tools of craftsmanship",
+      "Hearths",
+      "Homes"
+    ],
+    "preferredEnvironments": [
+      "Familiar, stable spaces",
+      "Community-oriented settings",
+      "Places valuing cooperation"
+    ],
+    "coreSkillsAbilities": [
+      "Connecting",
+      "Stabilizing",
+      "Harmonizing elements within a collective"
+    ],
+    "emotionalTriggers": {
+      "positive": ["Community", "Stability", "Inclusiveness"],
+      "negative": ["Elitism", "Exclusion", "Disruption of harmony"]
+    },
     "historicalExamples": [
       {
         "name": "Norman Rockwell",
